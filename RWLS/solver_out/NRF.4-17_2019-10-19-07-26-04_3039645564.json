@@ -1,0 +1,89 @@
+{
+    "date": "2019-10-19T07:26:04Z",
+    "git": {
+        "head_sha1": "4390b5ecb2a5706c7d625abdeea1464666449217",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "NRF.4",
+                        "points_number": 500,
+                        "reduced": false,
+                        "subsets_number": 5000
+                    },
+                    "selected_subsets": [
+                        13,
+                        678,
+                        918,
+                        1401,
+                        1449,
+                        1454,
+                        2686,
+                        2738,
+                        3371,
+                        3924,
+                        4272
+                    ]
+                },
+                "time": 0.007807744
+            },
+            "instance": {
+                "name": "NRF.4",
+                "points_number": 500,
+                "reduced": false,
+                "subsets_number": 5000
+            },
+            "rwls": [
+                {
+                    "solution_final": {
+                        "problem": {
+                            "name": "NRF.4",
+                            "points_number": 500,
+                            "reduced": false,
+                            "subsets_number": 5000
+                        },
+                        "selected_subsets": [
+                            51,
+                            1448,
+                            1681,
+                            1695,
+                            2370,
+                            2479,
+                            2863,
+                            3960,
+                            4272,
+                            4681
+                        ]
+                    },
+                    "solution_initial": {
+                        "problem": {
+                            "name": "NRF.4",
+                            "points_number": 500,
+                            "reduced": false,
+                            "subsets_number": 5000
+                        },
+                        "selected_subsets": [
+                            13,
+                            678,
+                            918,
+                            1401,
+                            1449,
+                            1454,
+                            2686,
+                            2738,
+                            3371,
+                            3924,
+                            4272
+                        ]
+                    },
+                    "steps": 86041,
+                    "time": 13.316671488
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "date": "2019-10-26T19:00:23Z",
+    "git": {
+        "head_sha1": "b87aa849a1cf1ba2081b2d1a42e623623e2ffe24",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "NRE.4",
+                        "points_number": 500,
+                        "reduced": false,
+                        "subsets_number": 5000
+                    },
+                    "selected_subsets": [
+                        58,
+                        183,
+                        302,
+                        447,
+                        449,
+                        1193,
+                        1241,
+                        1474,
+                        1572,
+                        1680,
+                        1775,
+                        1973,
+                        2117,
+                        2118,
+                        2842,
+                        3314,
+                        4346,
+                        4863
+                    ]
+                },
+                "time": 0.005430784
+            },
+            "instance": {
+                "name": "NRE.4",
+                "points_number": 500,
+                "reduced": false,
+                "subsets_number": 5000
+            },
+            "rwls": [
+                {
+                    "solution_final": {
+                        "problem": {
+                            "name": "NRE.4",
+                            "points_number": 500,
+                            "reduced": false,
+                            "subsets_number": 5000
+                        },
+                        "selected_subsets": [
+                            249,
+                            307,
+                            447,
+                            758,
+                            764,
+                            2401,
+                            2738,
+                            2978,
+                            3005,
+                            3475,
+                            3531,
+                            3678,
+                            3744,
+                            3832,
+                            4245,
+                            4506,
+                            4734
+                        ]
+                    },
+                    "solution_initial": {
+                        "problem": {
+                            "name": "NRE.4",
+                            "points_number": 500,
+                            "reduced": false,
+                            "subsets_number": 5000
+                        },
+                        "selected_subsets": [
+                            58,
+                            183,
+                            302,
+                            447,
+                            449,
+                            1193,
+                            1241,
+                            1474,
+                            1572,
+                            1680,
+                            1775,
+                            1973,
+                            2117,
+                            2118,
+                            2842,
+                            3314,
+                            4346,
+                            4863
+                        ]
+                    },
+                    "steps": 13596,
+                    "time": 1.567967744
+                }
+            ]
+        }
+    ]
+}

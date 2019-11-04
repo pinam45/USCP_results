@@ -1,0 +1,113 @@
+{
+    "date": "2019-10-26T14:19:06Z",
+    "git": {
+        "head_sha1": "b87aa849a1cf1ba2081b2d1a42e623623e2ffe24",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "STS27",
+                        "points_number": 117,
+                        "reduced": false,
+                        "subsets_number": 27
+                    },
+                    "selected_subsets": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        14,
+                        18,
+                        19,
+                        20,
+                        21,
+                        23
+                    ]
+                },
+                "time": 9.0112e-05
+            },
+            "instance": {
+                "name": "STS27",
+                "points_number": 117,
+                "reduced": false,
+                "subsets_number": 27
+            },
+            "rwls": [
+                {
+                    "solution_final": {
+                        "problem": {
+                            "name": "STS27",
+                            "points_number": 117,
+                            "reduced": false,
+                            "subsets_number": 27
+                        },
+                        "selected_subsets": [
+                            0,
+                            2,
+                            3,
+                            4,
+                            7,
+                            8,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            21,
+                            23,
+                            25,
+                            26
+                        ]
+                    },
+                    "solution_initial": {
+                        "problem": {
+                            "name": "STS27",
+                            "points_number": 117,
+                            "reduced": false,
+                            "subsets_number": 27
+                        },
+                        "selected_subsets": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            14,
+                            18,
+                            19,
+                            20,
+                            21,
+                            23
+                        ]
+                    },
+                    "steps": 12,
+                    "time": 0.000937984
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "date": "2019-10-19T15:30:53Z",
+    "git": {
+        "head_sha1": "4390b5ecb2a5706c7d625abdeea1464666449217",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "STS9",
+                        "points_number": 12,
+                        "reduced": false,
+                        "subsets_number": 9
+                    },
+                    "selected_subsets": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        5
+                    ]
+                },
+                "time": 1.5872e-05
+            },
+            "instance": {
+                "name": "STS9",
+                "points_number": 12,
+                "reduced": false,
+                "subsets_number": 9
+            },
+            "rwls": [
+                {
+                    "solution_final": {
+                        "problem": {
+                            "name": "STS9",
+                            "points_number": 12,
+                            "reduced": false,
+                            "subsets_number": 9
+                        },
+                        "selected_subsets": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            5
+                        ]
+                    },
+                    "solution_initial": {
+                        "problem": {
+                            "name": "STS9",
+                            "points_number": 12,
+                            "reduced": false,
+                            "subsets_number": 9
+                        },
+                        "selected_subsets": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            5
+                        ]
+                    },
+                    "steps": 0,
+                    "time": 1.536e-06
+                }
+            ]
+        }
+    ]
+}

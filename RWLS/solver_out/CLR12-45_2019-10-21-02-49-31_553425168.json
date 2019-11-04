@@ -1,0 +1,144 @@
+{
+    "date": "2019-10-21T02:49:31Z",
+    "git": {
+        "head_sha1": "4390b5ecb2a5706c7d625abdeea1464666449217",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "CLR12",
+                        "points_number": 2047,
+                        "reduced": false,
+                        "subsets_number": 495
+                    },
+                    "selected_subsets": [
+                        0,
+                        3,
+                        9,
+                        14,
+                        32,
+                        42,
+                        49,
+                        59,
+                        61,
+                        102,
+                        109,
+                        128,
+                        136,
+                        149,
+                        160,
+                        161,
+                        189,
+                        216,
+                        226,
+                        240,
+                        261,
+                        268,
+                        325,
+                        332,
+                        340,
+                        347,
+                        354,
+                        369,
+                        373,
+                        408,
+                        409,
+                        420
+                    ]
+                },
+                "time": 0.002973952
+            },
+            "instance": {
+                "name": "CLR12",
+                "points_number": 2047,
+                "reduced": false,
+                "subsets_number": 495
+            },
+            "rwls": [
+                {
+                    "solution_final": {
+                        "problem": {
+                            "name": "CLR12",
+                            "points_number": 2047,
+                            "reduced": false,
+                            "subsets_number": 495
+                        },
+                        "selected_subsets": [
+                            0,
+                            3,
+                            32,
+                            49,
+                            103,
+                            137,
+                            144,
+                            149,
+                            160,
+                            189,
+                            226,
+                            255,
+                            261,
+                            277,
+                            308,
+                            340,
+                            347,
+                            354,
+                            363,
+                            390,
+                            394,
+                            408,
+                            486
+                        ]
+                    },
+                    "solution_initial": {
+                        "problem": {
+                            "name": "CLR12",
+                            "points_number": 2047,
+                            "reduced": false,
+                            "subsets_number": 495
+                        },
+                        "selected_subsets": [
+                            0,
+                            3,
+                            9,
+                            14,
+                            32,
+                            42,
+                            49,
+                            59,
+                            61,
+                            102,
+                            109,
+                            128,
+                            136,
+                            149,
+                            160,
+                            161,
+                            189,
+                            216,
+                            226,
+                            240,
+                            261,
+                            268,
+                            325,
+                            332,
+                            340,
+                            347,
+                            354,
+                            369,
+                            373,
+                            408,
+                            409,
+                            420
+                        ]
+                    },
+                    "steps": 23,
+                    "time": 0.004388608
+                }
+            ]
+        }
+    ]
+}
