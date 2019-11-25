@@ -1,0 +1,126 @@
+{
+    "date": "2019-11-14T05:36:04Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "D.2",
+                        "points_number": 400,
+                        "reduced": false,
+                        "subsets_number": 4000
+                    },
+                    "selected_subsets": [
+                        0,
+                        289,
+                        329,
+                        352,
+                        375,
+                        446,
+                        452,
+                        494,
+                        618,
+                        619,
+                        995,
+                        1522,
+                        1645,
+                        1673,
+                        1773,
+                        1808,
+                        1850,
+                        2083,
+                        2169,
+                        2275,
+                        2566,
+                        2677,
+                        3302,
+                        3386,
+                        3468,
+                        3923
+                    ]
+                },
+                "time": 0.009584896
+            },
+            "instance": {
+                "name": "D.2",
+                "points_number": 400,
+                "reduced": false,
+                "subsets_number": 4000
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "greedy_merge",
+                    "ended_at": {
+                        "generation": 100,
+                        "rwls_cumulative_position": {
+                            "steps": 30000000,
+                            "time": 3482.940785920001
+                        },
+                        "time": 3483.26385408
+                    },
+                    "found_at": {
+                        "generation": 16,
+                        "rwls_cumulative_position": {
+                            "steps": 4810360,
+                            "time": 564.1357813760001
+                        },
+                        "time": 583.90373376
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "D.2",
+                            "points_number": 400,
+                            "reduced": false,
+                            "subsets_number": 4000
+                        },
+                        "selected_subsets": [
+                            289,
+                            332,
+                            414,
+                            534,
+                            579,
+                            757,
+                            995,
+                            998,
+                            1473,
+                            1477,
+                            1607,
+                            1645,
+                            2275,
+                            2469,
+                            2523,
+                            2572,
+                            2678,
+                            2719,
+                            2902,
+                            3386,
+                            3471,
+                            3680,
+                            3923,
+                            3926
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 150000,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 100,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "date": "2019-11-14T02:02:37Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "STS15",
+                        "points_number": 35,
+                        "reduced": false,
+                        "subsets_number": 15
+                    },
+                    "selected_subsets": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                "time": 3.712e-05
+            },
+            "instance": {
+                "name": "STS15",
+                "points_number": 35,
+                "reduced": false,
+                "subsets_number": 15
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "subproblem_random",
+                    "ended_at": {
+                        "generation": 100000,
+                        "rwls_cumulative_position": {
+                            "steps": 100000000,
+                            "time": 3622.2577592319826
+                        },
+                        "time": 3837.536899072
+                    },
+                    "found_at": {
+                        "generation": 0,
+                        "rwls_cumulative_position": {
+                            "steps": 0,
+                            "time": 2.4576e-05
+                        },
+                        "time": 0.021612544
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "STS15",
+                            "points_number": 35,
+                            "reduced": false,
+                            "subsets_number": 15
+                        },
+                        "selected_subsets": [
+                            3,
+                            4,
+                            6,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 500,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 100000,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

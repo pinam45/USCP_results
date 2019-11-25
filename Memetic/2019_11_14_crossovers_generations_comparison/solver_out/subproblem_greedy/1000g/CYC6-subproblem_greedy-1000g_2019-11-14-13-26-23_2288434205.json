@@ -1,0 +1,196 @@
+{
+    "date": "2019-11-14T13:26:23Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "CYC6",
+                        "points_number": 240,
+                        "reduced": false,
+                        "subsets_number": 192
+                    },
+                    "selected_subsets": [
+                        0,
+                        7,
+                        10,
+                        16,
+                        17,
+                        20,
+                        23,
+                        31,
+                        32,
+                        33,
+                        35,
+                        36,
+                        42,
+                        43,
+                        45,
+                        48,
+                        51,
+                        56,
+                        60,
+                        61,
+                        64,
+                        65,
+                        73,
+                        78,
+                        84,
+                        85,
+                        88,
+                        91,
+                        99,
+                        100,
+                        102,
+                        104,
+                        105,
+                        109,
+                        113,
+                        115,
+                        119,
+                        121,
+                        123,
+                        126,
+                        132,
+                        136,
+                        137,
+                        140,
+                        141,
+                        149,
+                        154,
+                        158,
+                        161,
+                        165,
+                        166,
+                        167,
+                        168,
+                        172,
+                        173,
+                        178,
+                        179,
+                        183,
+                        188,
+                        191
+                    ]
+                },
+                "time": 0.000628736
+            },
+            "instance": {
+                "name": "CYC6",
+                "points_number": 240,
+                "reduced": false,
+                "subsets_number": 192
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "subproblem_greedy",
+                    "ended_at": {
+                        "generation": 1000,
+                        "rwls_cumulative_position": {
+                            "steps": 100000000,
+                            "time": 1794.946899456003
+                        },
+                        "time": 1799.156685056
+                    },
+                    "found_at": {
+                        "generation": 0,
+                        "rwls_cumulative_position": {
+                            "steps": 2225,
+                            "time": 0.051163648
+                        },
+                        "time": 0.828546816
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "CYC6",
+                            "points_number": 240,
+                            "reduced": false,
+                            "subsets_number": 192
+                        },
+                        "selected_subsets": [
+                            0,
+                            1,
+                            3,
+                            10,
+                            17,
+                            19,
+                            20,
+                            23,
+                            26,
+                            28,
+                            29,
+                            30,
+                            33,
+                            34,
+                            41,
+                            44,
+                            45,
+                            49,
+                            52,
+                            58,
+                            62,
+                            68,
+                            70,
+                            74,
+                            79,
+                            86,
+                            88,
+                            91,
+                            94,
+                            97,
+                            99,
+                            100,
+                            102,
+                            104,
+                            106,
+                            113,
+                            115,
+                            119,
+                            121,
+                            126,
+                            129,
+                            133,
+                            136,
+                            139,
+                            144,
+                            145,
+                            150,
+                            151,
+                            156,
+                            161,
+                            163,
+                            166,
+                            168,
+                            173,
+                            174,
+                            179,
+                            183,
+                            187,
+                            189,
+                            190
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 50000,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 1000,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

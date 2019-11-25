@@ -1,0 +1,122 @@
+{
+    "date": "2019-11-12T23:34:14Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "B.3",
+                        "points_number": 300,
+                        "reduced": false,
+                        "subsets_number": 3000
+                    },
+                    "selected_subsets": [
+                        16,
+                        27,
+                        51,
+                        167,
+                        255,
+                        293,
+                        295,
+                        343,
+                        454,
+                        487,
+                        559,
+                        682,
+                        709,
+                        773,
+                        807,
+                        873,
+                        932,
+                        955,
+                        1074,
+                        1155,
+                        1371,
+                        1426,
+                        2508
+                    ]
+                },
+                "time": 0.003204608
+            },
+            "instance": {
+                "name": "B.3",
+                "points_number": 300,
+                "reduced": false,
+                "subsets_number": 3000
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "greedy_merge",
+                    "ended_at": {
+                        "generation": 100000,
+                        "rwls_cumulative_position": {
+                            "steps": 30000000,
+                            "time": 1732.1600427519809
+                        },
+                        "time": 1908.564333824
+                    },
+                    "found_at": {
+                        "generation": 4785,
+                        "rwls_cumulative_position": {
+                            "steps": 1435522,
+                            "time": 78.0676218880001
+                        },
+                        "time": 86.564534016
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "B.3",
+                            "points_number": 300,
+                            "reduced": false,
+                            "subsets_number": 3000
+                        },
+                        "selected_subsets": [
+                            3,
+                            50,
+                            116,
+                            194,
+                            235,
+                            259,
+                            346,
+                            487,
+                            489,
+                            556,
+                            986,
+                            1501,
+                            1556,
+                            1711,
+                            1835,
+                            1986,
+                            2044,
+                            2079,
+                            2159,
+                            2165,
+                            2588,
+                            2591,
+                            2883
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 150,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 100000,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

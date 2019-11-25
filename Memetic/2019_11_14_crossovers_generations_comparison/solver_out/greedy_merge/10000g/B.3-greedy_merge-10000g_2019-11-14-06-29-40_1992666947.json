@@ -1,0 +1,121 @@
+{
+    "date": "2019-11-14T06:29:40Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "B.3",
+                        "points_number": 300,
+                        "reduced": false,
+                        "subsets_number": 3000
+                    },
+                    "selected_subsets": [
+                        16,
+                        27,
+                        51,
+                        167,
+                        255,
+                        293,
+                        295,
+                        343,
+                        454,
+                        487,
+                        559,
+                        682,
+                        709,
+                        773,
+                        807,
+                        873,
+                        932,
+                        955,
+                        1074,
+                        1155,
+                        1371,
+                        1426,
+                        2508
+                    ]
+                },
+                "time": 0.003377664
+            },
+            "instance": {
+                "name": "B.3",
+                "points_number": 300,
+                "reduced": false,
+                "subsets_number": 3000
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "greedy_merge",
+                    "ended_at": {
+                        "generation": 10000,
+                        "rwls_cumulative_position": {
+                            "steps": 30000000,
+                            "time": 1569.4854842880022
+                        },
+                        "time": 1591.02472192
+                    },
+                    "found_at": {
+                        "generation": 581,
+                        "rwls_cumulative_position": {
+                            "steps": 1744144,
+                            "time": 89.38744038399993
+                        },
+                        "time": 90.87804928
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "B.3",
+                            "points_number": 300,
+                            "reduced": false,
+                            "subsets_number": 3000
+                        },
+                        "selected_subsets": [
+                            2,
+                            51,
+                            148,
+                            255,
+                            343,
+                            400,
+                            487,
+                            562,
+                            743,
+                            1074,
+                            1125,
+                            1155,
+                            1206,
+                            1648,
+                            1703,
+                            2240,
+                            2278,
+                            2406,
+                            2467,
+                            2545,
+                            2683,
+                            2822
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 1500,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 10000,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

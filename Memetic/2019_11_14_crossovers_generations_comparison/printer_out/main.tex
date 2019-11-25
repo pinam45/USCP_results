@@ -1,0 +1,223 @@
+%!TEX program = lualatex
+\documentclass[12pt,a4paper,twoside]{article}
+
+%----------------------------------------
+% Packages
+%----------------------------------------
+
+% Programming facilities
+\usepackage{etoolbox}
+\usepackage{ifxetex}
+\usepackage{ifluatex}
+% Encoding
+\usepackage[T1]{fontenc}
+\ifboolexpr{bool{xetex} or bool{luatex}}{%
+	\usepackage{fontspec}
+}{%
+	\usepackage[utf8]{inputenc}
+}
+% General purpose
+\usepackage[english]{babel}
+\usepackage[top=2cm, bottom=1.8cm, left=1.8cm, right=1.8cm, head=14pt, foot=36pt]{geometry}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[table]{xcolor}
+\usepackage{float}
+\usepackage{datetime2}
+\usepackage{chngcntr}
+\usepackage{pdflscape}
+% Mathematics
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+\usepackage{dsfont}
+\usepackage{braket}
+\usepackage{stmaryrd}
+% Tables
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{ltablex}
+\usepackage{tabu}
+\usepackage{booktabs}
+\usepackage{multirow}
+% PGF-TikZ
+\usepackage{pgf}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\usepackage{tikz}
+\usepackage[mode=tex]{standalone}
+\usepackage{import}
+
+%----------------------------------------
+% Configuration
+%----------------------------------------
+
+\DTMsavetimestamp{generated}{2019-11-14T16:59:25Z}
+
+%----------------------------------------
+% Informations
+%----------------------------------------
+
+% Cover infos
+\title{USCP results}
+\author{\url{https://github.com/pinam45/USCP}}
+\date{\DTMusedate{generated} \DTMusetime{generated}}
+
+% Fancy style options
+\lhead{\small USCP results}
+\rhead{\small \DTMusedate{generated} \DTMusetime{generated}}
+\chead{}
+\lfoot{\url{https://github.com/pinam45/USCP}}
+\rfoot{\thepage}
+\cfoot{}
+\pagestyle{fancy}
+
+%----------------------------------------
+% Tables
+%----------------------------------------
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\counterwithin{table}{section}
+
+%----------------------------------------
+% Plots
+%----------------------------------------
+
+\pgfplotsset{
+  table/search path={./plots},
+}
+
+%----------------------------------------
+% Links
+%----------------------------------------
+
+% Links config, especialy for the table of contents
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue,
+  linktoc=all,
+  citecolor=black
+}
+
+%----------------------------------------
+% Document
+%----------------------------------------
+\begin{document}
+	\maketitle{}
+	\tableofcontents{}
+	\listoftables{}
+	\newpage\section{Instances}
+		\input{./tables/orlibrary_instances_base}
+		\input{./tables/orlibrary_instances_cyc_clr}
+		\input{./tables/orlibrary_instances_rail}
+		\input{./tables/sts_instances}
+	\begin{landscape}
+		\newpage\section{Results}
+			\input{./tables/results}
+	\end{landscape}
+	\newpage\section{Stats}
+		\input{./tables/rwls_stats}
+	\newpage\section{Memetic config comparisons}
+		\input{./tables/memetic_comparisons/comparison_4.1.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_4.2.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_4.3.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_4.4.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_4.5.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_4.6.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_4.7.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_4.8.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_4.9.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_4.10.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_5.1.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_5.2.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_5.3.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_5.4.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_5.5.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_5.6.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_5.7.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_5.8.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_5.9.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_5.10.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_6.1.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_6.2.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_6.3.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_6.4.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_6.5.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_A.1.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_A.2.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_A.3.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_A.4.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_A.5.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_B.1.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_B.2.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_B.3.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_B.4.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_B.5.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_C.1.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_C.2.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_C.3.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_C.4.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_C.5.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_D.1.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_D.2.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_D.3.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_D.4.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_D.5.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_E.1.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_E.2.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_E.3.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_E.4.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_E.5.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRE.1.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRE.2.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRE.3.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRE.4.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRE.5.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRF.1.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRF.2.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRF.3.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRF.4.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRF.5.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRG.1.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRG.2.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRG.3.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRG.4.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRG.5.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRH.1.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRH.2.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRH.3.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRH.4.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_NRH.5.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_CLR10.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_CLR11.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_CLR12.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_CLR13.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_CYC6.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_CYC7.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_CYC8.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_CYC9.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_CYC10.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_CYC11.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_RAIL507.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_RAIL516.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_RAIL582.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_RAIL2586.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_RAIL4284.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_RAIL4872.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_STS9.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_STS15.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_STS27.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_STS45.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_STS81.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_STS135.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_STS243.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_STS405.tex}
+		\newpage\input{./tables/memetic_comparisons/comparison_STS729.tex}
+\end{document}

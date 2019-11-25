@@ -1,0 +1,86 @@
+{
+    "date": "2019-11-12T20:03:25Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "STS9",
+                        "points_number": 12,
+                        "reduced": false,
+                        "subsets_number": 9
+                    },
+                    "selected_subsets": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        5
+                    ]
+                },
+                "time": 7.168e-06
+            },
+            "instance": {
+                "name": "STS9",
+                "points_number": 12,
+                "reduced": false,
+                "subsets_number": 9
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "greedy_merge",
+                    "ended_at": {
+                        "generation": 10,
+                        "rwls_cumulative_position": {
+                            "steps": 100000000,
+                            "time": 1210.8997931519998
+                        },
+                        "time": 1211.185917696
+                    },
+                    "found_at": {
+                        "generation": 0,
+                        "rwls_cumulative_position": {
+                            "steps": 0,
+                            "time": 1.2032e-05
+                        },
+                        "time": 60.716081152
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "STS9",
+                            "points_number": 12,
+                            "reduced": false,
+                            "subsets_number": 9
+                        },
+                        "selected_subsets": [
+                            1,
+                            2,
+                            3,
+                            4,
+                            7
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 5000000,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 10,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

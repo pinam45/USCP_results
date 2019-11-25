@@ -1,0 +1,121 @@
+{
+    "date": "2019-11-12T14:17:18Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "B.2",
+                        "points_number": 300,
+                        "reduced": false,
+                        "subsets_number": 3000
+                    },
+                    "selected_subsets": [
+                        8,
+                        14,
+                        216,
+                        309,
+                        314,
+                        356,
+                        451,
+                        453,
+                        472,
+                        612,
+                        679,
+                        691,
+                        885,
+                        1056,
+                        1059,
+                        1176,
+                        1177,
+                        1203,
+                        1556,
+                        1803,
+                        2112,
+                        2125,
+                        2915
+                    ]
+                },
+                "time": 0.002111232
+            },
+            "instance": {
+                "name": "B.2",
+                "points_number": 300,
+                "reduced": false,
+                "subsets_number": 3000
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "subproblem_random",
+                    "ended_at": {
+                        "generation": 10000,
+                        "rwls_cumulative_position": {
+                            "steps": 30000000,
+                            "time": 1392.0965312000033
+                        },
+                        "time": 1437.878724352
+                    },
+                    "found_at": {
+                        "generation": 153,
+                        "rwls_cumulative_position": {
+                            "steps": 460472,
+                            "time": 18.146943999999994
+                        },
+                        "time": 18.581315584
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "B.2",
+                            "points_number": 300,
+                            "reduced": false,
+                            "subsets_number": 3000
+                        },
+                        "selected_subsets": [
+                            256,
+                            278,
+                            356,
+                            451,
+                            1056,
+                            1176,
+                            1177,
+                            1203,
+                            1209,
+                            1550,
+                            1586,
+                            1739,
+                            1833,
+                            2099,
+                            2126,
+                            2128,
+                            2458,
+                            2553,
+                            2608,
+                            2644,
+                            2740,
+                            2984
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 1500,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 10000,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

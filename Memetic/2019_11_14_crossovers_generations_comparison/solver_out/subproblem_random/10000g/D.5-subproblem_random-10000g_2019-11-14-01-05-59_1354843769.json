@@ -1,0 +1,128 @@
+{
+    "date": "2019-11-14T01:05:59Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "D.5",
+                        "points_number": 400,
+                        "reduced": false,
+                        "subsets_number": 4000
+                    },
+                    "selected_subsets": [
+                        8,
+                        28,
+                        49,
+                        141,
+                        198,
+                        245,
+                        310,
+                        317,
+                        549,
+                        573,
+                        632,
+                        674,
+                        1079,
+                        1442,
+                        1444,
+                        1733,
+                        1850,
+                        2326,
+                        2531,
+                        2695,
+                        2919,
+                        2941,
+                        3088,
+                        3252,
+                        3461,
+                        3713,
+                        3924
+                    ]
+                },
+                "time": 0.004032
+            },
+            "instance": {
+                "name": "D.5",
+                "points_number": 400,
+                "reduced": false,
+                "subsets_number": 4000
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "subproblem_random",
+                    "ended_at": {
+                        "generation": 10000,
+                        "rwls_cumulative_position": {
+                            "steps": 30000000,
+                            "time": 2354.250973439991
+                        },
+                        "time": 2391.26405632
+                    },
+                    "found_at": {
+                        "generation": 2830,
+                        "rwls_cumulative_position": {
+                            "steps": 8491113,
+                            "time": 645.7469091840003
+                        },
+                        "time": 656.354546432
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "D.5",
+                            "points_number": 400,
+                            "reduced": false,
+                            "subsets_number": 4000
+                        },
+                        "selected_subsets": [
+                            244,
+                            673,
+                            718,
+                            873,
+                            1172,
+                            1644,
+                            1652,
+                            1745,
+                            1781,
+                            1849,
+                            1943,
+                            2114,
+                            2115,
+                            2169,
+                            2326,
+                            2541,
+                            2571,
+                            2612,
+                            2916,
+                            2946,
+                            2959,
+                            3173,
+                            3343,
+                            3618,
+                            3886
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 1500,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 10000,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

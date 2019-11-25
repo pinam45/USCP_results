@@ -1,0 +1,123 @@
+{
+    "date": "2019-11-12T21:39:36Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "B.5",
+                        "points_number": 300,
+                        "reduced": false,
+                        "subsets_number": 3000
+                    },
+                    "selected_subsets": [
+                        23,
+                        27,
+                        36,
+                        42,
+                        46,
+                        178,
+                        179,
+                        193,
+                        214,
+                        331,
+                        369,
+                        406,
+                        433,
+                        435,
+                        457,
+                        772,
+                        1159,
+                        1206,
+                        1634,
+                        1758,
+                        1946,
+                        2528,
+                        2593,
+                        2718,
+                        2970
+                    ]
+                },
+                "time": 0.002313728
+            },
+            "instance": {
+                "name": "B.5",
+                "points_number": 300,
+                "reduced": false,
+                "subsets_number": 3000
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "greedy_merge",
+                    "ended_at": {
+                        "generation": 1000,
+                        "rwls_cumulative_position": {
+                            "steps": 30000000,
+                            "time": 1247.6854023680003
+                        },
+                        "time": 1252.34197248
+                    },
+                    "found_at": {
+                        "generation": 0,
+                        "rwls_cumulative_position": {
+                            "steps": 14414,
+                            "time": 0.624204288
+                        },
+                        "time": 0.652134656
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "B.5",
+                            "points_number": 300,
+                            "reduced": false,
+                            "subsets_number": 3000
+                        },
+                        "selected_subsets": [
+                            220,
+                            277,
+                            433,
+                            575,
+                            578,
+                            763,
+                            900,
+                            984,
+                            1434,
+                            1511,
+                            1591,
+                            1983,
+                            2075,
+                            2108,
+                            2182,
+                            2265,
+                            2370,
+                            2621,
+                            2880,
+                            2941,
+                            2944,
+                            2970
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 15000,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 1000,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

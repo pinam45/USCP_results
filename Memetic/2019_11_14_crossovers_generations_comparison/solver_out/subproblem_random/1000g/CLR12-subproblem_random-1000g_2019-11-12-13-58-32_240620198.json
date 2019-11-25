@@ -1,0 +1,131 @@
+{
+    "date": "2019-11-12T13:58:32Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "CLR12",
+                        "points_number": 2047,
+                        "reduced": false,
+                        "subsets_number": 495
+                    },
+                    "selected_subsets": [
+                        0,
+                        3,
+                        9,
+                        14,
+                        32,
+                        42,
+                        49,
+                        59,
+                        61,
+                        102,
+                        109,
+                        128,
+                        136,
+                        149,
+                        160,
+                        161,
+                        189,
+                        216,
+                        226,
+                        240,
+                        261,
+                        268,
+                        325,
+                        332,
+                        340,
+                        347,
+                        354,
+                        369,
+                        373,
+                        408,
+                        409,
+                        420
+                    ]
+                },
+                "time": 0.001208576
+            },
+            "instance": {
+                "name": "CLR12",
+                "points_number": 2047,
+                "reduced": false,
+                "subsets_number": 495
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "subproblem_random",
+                    "ended_at": {
+                        "generation": 1000,
+                        "rwls_cumulative_position": {
+                            "steps": 100000000,
+                            "time": 3808.2876170240006
+                        },
+                        "time": 3813.883283712
+                    },
+                    "found_at": {
+                        "generation": 0,
+                        "rwls_cumulative_position": {
+                            "steps": 3350,
+                            "time": 0.1295104
+                        },
+                        "time": 1.936006144
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "CLR12",
+                            "points_number": 2047,
+                            "reduced": false,
+                            "subsets_number": 495
+                        },
+                        "selected_subsets": [
+                            46,
+                            49,
+                            65,
+                            91,
+                            118,
+                            122,
+                            147,
+                            162,
+                            308,
+                            321,
+                            325,
+                            348,
+                            350,
+                            367,
+                            379,
+                            383,
+                            402,
+                            408,
+                            421,
+                            426,
+                            430,
+                            460,
+                            479
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 50000,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 1000,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

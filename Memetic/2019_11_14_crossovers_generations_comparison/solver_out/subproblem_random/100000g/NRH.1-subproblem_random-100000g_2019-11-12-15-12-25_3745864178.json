@@ -1,0 +1,151 @@
+{
+    "date": "2019-11-12T15:12:25Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "NRH.1",
+                        "points_number": 1000,
+                        "reduced": false,
+                        "subsets_number": 10000
+                    },
+                    "selected_subsets": [
+                        82,
+                        92,
+                        102,
+                        113,
+                        114,
+                        254,
+                        801,
+                        917,
+                        1205,
+                        1307,
+                        1419,
+                        1533,
+                        1740,
+                        1953,
+                        2042,
+                        2331,
+                        2637,
+                        2754,
+                        3101,
+                        4299,
+                        4373,
+                        4792,
+                        5089,
+                        5186,
+                        5465,
+                        5851,
+                        6866,
+                        6948,
+                        7057,
+                        7846,
+                        7955,
+                        8292,
+                        9104,
+                        9387,
+                        9514,
+                        9625
+                    ]
+                },
+                "time": 0.015167232
+            },
+            "instance": {
+                "name": "NRH.1",
+                "points_number": 1000,
+                "reduced": false,
+                "subsets_number": 10000
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "subproblem_random",
+                    "ended_at": {
+                        "generation": 100000,
+                        "rwls_cumulative_position": {
+                            "steps": 30000000,
+                            "time": 5109.420342527975
+                        },
+                        "time": 5558.101912576
+                    },
+                    "found_at": {
+                        "generation": 10625,
+                        "rwls_cumulative_position": {
+                            "steps": 3187512,
+                            "time": 497.19409151999946
+                        },
+                        "time": 545.172974336
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "NRH.1",
+                            "points_number": 1000,
+                            "reduced": false,
+                            "subsets_number": 10000
+                        },
+                        "selected_subsets": [
+                            600,
+                            1529,
+                            1530,
+                            1573,
+                            1689,
+                            1741,
+                            1829,
+                            1955,
+                            2721,
+                            2904,
+                            3294,
+                            3518,
+                            3772,
+                            4091,
+                            4200,
+                            4222,
+                            4254,
+                            4670,
+                            4671,
+                            5092,
+                            5118,
+                            5188,
+                            5669,
+                            5805,
+                            5873,
+                            6055,
+                            6060,
+                            6757,
+                            7244,
+                            7654,
+                            8082,
+                            8370,
+                            8376,
+                            9004,
+                            9287,
+                            9388,
+                            9398,
+                            9625,
+                            9710
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 150,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 100000,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "date": "2019-11-14T02:16:27Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "5.5",
+                        "points_number": 200,
+                        "reduced": false,
+                        "subsets_number": 2000
+                    },
+                    "selected_subsets": [
+                        30,
+                        32,
+                        33,
+                        54,
+                        76,
+                        80,
+                        104,
+                        174,
+                        187,
+                        262,
+                        288,
+                        306,
+                        361,
+                        398,
+                        453,
+                        471,
+                        497,
+                        671,
+                        689,
+                        708,
+                        739,
+                        862,
+                        880,
+                        896,
+                        914,
+                        941,
+                        954,
+                        982,
+                        1168,
+                        1296,
+                        1312,
+                        1464,
+                        1698,
+                        1870,
+                        1975,
+                        1976,
+                        1982
+                    ]
+                },
+                "time": 0.003335424
+            },
+            "instance": {
+                "name": "5.5",
+                "points_number": 200,
+                "reduced": false,
+                "subsets_number": 2000
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "subproblem_greedy",
+                    "ended_at": {
+                        "generation": 10,
+                        "rwls_cumulative_position": {
+                            "steps": 30000000,
+                            "time": 801.693796352
+                        },
+                        "time": 801.719128832
+                    },
+                    "found_at": {
+                        "generation": 0,
+                        "rwls_cumulative_position": {
+                            "steps": 33859,
+                            "time": 0.838269184
+                        },
+                        "time": 39.516521984
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "5.5",
+                            "points_number": 200,
+                            "reduced": false,
+                            "subsets_number": 2000
+                        },
+                        "selected_subsets": [
+                            97,
+                            189,
+                            215,
+                            262,
+                            288,
+                            332,
+                            414,
+                            599,
+                            622,
+                            739,
+                            767,
+                            823,
+                            862,
+                            897,
+                            900,
+                            916,
+                            972,
+                            1016,
+                            1097,
+                            1106,
+                            1115,
+                            1280,
+                            1297,
+                            1311,
+                            1464,
+                            1565,
+                            1698,
+                            1738,
+                            1762,
+                            1778,
+                            1809,
+                            1886,
+                            1891,
+                            1956
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 1500000,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 10,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

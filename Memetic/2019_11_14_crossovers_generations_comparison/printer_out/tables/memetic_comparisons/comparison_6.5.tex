@@ -1,0 +1,142 @@
+%!TEX root = ../main.tex
+\rowcolors{1}{gray!10}{white}
+\begin{longtable}{@{\extracolsep{0pt}}cc{c}cccccc}
+	\hiderowcolors
+	\caption{Memetic parameter comparison for 6.5}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endfirsthead
+	\caption{Memetic parameter comparison for 6.5 (continued)}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\showrowcolors
+	merge &
+		1000g/15000steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  0.0 &  1 459 &  0.34
+	\\
+	merge &
+		100g/150000steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  0.0 &  3 369 &  5.55
+	\\
+	greedy\_merge &
+		1000g/15000steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  0.0 &  3 804 &  0.39
+	\\
+	greedy\_merge &
+		10g/1500000steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  0.0 &  3 912 &  49.53
+	\\
+	subproblem\_random &
+		100g/150000steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  0.0 &  4 326 &  4.11
+	\\
+	subproblem\_greedy &
+		10g/1500000steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  0.0 &  4 380 &  35.33
+	\\
+	subproblem\_random &
+		1000g/15000steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  0.0 &  4 487 &  0.38
+	\\
+	greedy\_merge &
+		10000g/1500steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  1.5 &  5 310 &  0.16
+	\\
+	subproblem\_random &
+		10g/1500000steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  0.0 &  5 392 &  37.12
+	\\
+	subproblem\_greedy &
+		1000g/15000steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  0.0 &  7 490 &  0.42
+	\\
+	subproblem\_greedy &
+		100g/150000steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  0.0 &  7 600 &  5.28
+	\\
+	merge &
+		10g/1500000steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  0.0 &  10 424 &  35.81
+	\\
+	greedy\_merge &
+		100g/150000steps
+	 &&
+			\textbf{21}
+	&  21.0 &  1/1 &  0.0 &  12 501 &  3.19
+	\\
+	subproblem\_greedy &
+		10000g/1500steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  5.5 &  17 379 &  0.78
+	\\
+	merge &
+		10000g/1500steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  6.5 &  20 720 &  0.51
+	\\
+	subproblem\_random &
+		10000g/1500steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  9.0 &  28 028 &  0.71
+	\\
+	subproblem\_greedy &
+		100000g/150steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  952.0 &  285 714 &  9.09
+	\\
+	subproblem\_random &
+		100000g/150steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  1031.5 &  309 462 &  11.17
+	\\
+	merge &
+		100000g/150steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  1975.5 &  592 746 &  21.21
+	\\
+	greedy\_merge &
+		100000g/150steps
+	 &&
+			\textbf{21}
+	&  21.0 &  2/2 &  7273.5 &  2 182 173 &  69.83
+	\\
+\end{longtable}

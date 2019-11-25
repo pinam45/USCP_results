@@ -1,0 +1,155 @@
+{
+    "date": "2019-11-12T13:28:04Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "4.1",
+                        "points_number": 200,
+                        "reduced": false,
+                        "subsets_number": 1000
+                    },
+                    "selected_subsets": [
+                        1,
+                        27,
+                        65,
+                        71,
+                        76,
+                        98,
+                        115,
+                        121,
+                        122,
+                        135,
+                        179,
+                        184,
+                        186,
+                        187,
+                        265,
+                        273,
+                        303,
+                        316,
+                        377,
+                        406,
+                        450,
+                        489,
+                        508,
+                        509,
+                        546,
+                        554,
+                        563,
+                        583,
+                        602,
+                        646,
+                        647,
+                        670,
+                        698,
+                        706,
+                        767,
+                        775,
+                        926,
+                        934,
+                        965,
+                        981,
+                        988
+                    ]
+                },
+                "time": 0.001097984
+            },
+            "instance": {
+                "name": "4.1",
+                "points_number": 200,
+                "reduced": false,
+                "subsets_number": 1000
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "subproblem_random",
+                    "ended_at": {
+                        "generation": 1000,
+                        "rwls_cumulative_position": {
+                            "steps": 30000000,
+                            "time": 611.8512138240012
+                        },
+                        "time": 613.970572544
+                    },
+                    "found_at": {
+                        "generation": 0,
+                        "rwls_cumulative_position": {
+                            "steps": 13558,
+                            "time": 0.283455744
+                        },
+                        "time": 0.315304192
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "4.1",
+                            "points_number": 200,
+                            "reduced": false,
+                            "subsets_number": 1000
+                        },
+                        "selected_subsets": [
+                            27,
+                            121,
+                            122,
+                            123,
+                            128,
+                            135,
+                            160,
+                            225,
+                            265,
+                            270,
+                            294,
+                            316,
+                            398,
+                            401,
+                            491,
+                            508,
+                            509,
+                            513,
+                            554,
+                            556,
+                            583,
+                            602,
+                            627,
+                            646,
+                            655,
+                            672,
+                            683,
+                            692,
+                            784,
+                            798,
+                            862,
+                            888,
+                            926,
+                            927,
+                            934,
+                            965,
+                            968,
+                            976
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 15000,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 1000,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

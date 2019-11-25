@@ -1,0 +1,142 @@
+%!TEX root = ../main.tex
+\rowcolors{1}{gray!10}{white}
+\begin{longtable}{@{\extracolsep{0pt}}cc{c}cccccc}
+	\hiderowcolors
+	\caption{Memetic parameter comparison for STS15}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endfirsthead
+	\caption{Memetic parameter comparison for STS15 (continued)}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\showrowcolors
+	greedy\_merge &
+		100000g/500steps
+	 &&
+			\textbf{9}
+	&  9.0 &  1/1 &  0.0 &  0 &  0.01
+	\\
+	merge &
+		100000g/500steps
+	 &&
+			\textbf{9}
+	&  9.0 &  2/2 &  0.0 &  0 &  0.01
+	\\
+	subproblem\_greedy &
+		100000g/500steps
+	 &&
+			\textbf{9}
+	&  9.0 &  1/1 &  0.0 &  0 &  0.01
+	\\
+	subproblem\_random &
+		100000g/500steps
+	 &&
+			\textbf{9}
+	&  9.0 &  2/2 &  0.0 &  0 &  0.02
+	\\
+	subproblem\_greedy &
+		10000g/5000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  1/1 &  0.0 &  0 &  0.08
+	\\
+	subproblem\_random &
+		10000g/5000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  2/2 &  0.0 &  0 &  0.08
+	\\
+	greedy\_merge &
+		10000g/5000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  1/1 &  0.0 &  0 &  0.08
+	\\
+	merge &
+		10000g/5000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  1/1 &  0.0 &  0 &  0.08
+	\\
+	subproblem\_random &
+		1000g/50000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  1/1 &  0.0 &  0 &  0.75
+	\\
+	greedy\_merge &
+		1000g/50000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  1/1 &  0.0 &  0 &  0.76
+	\\
+	merge &
+		1000g/50000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  2/2 &  0.0 &  0 &  0.91
+	\\
+	subproblem\_greedy &
+		1000g/50000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  1/1 &  0.0 &  0 &  1.16
+	\\
+	subproblem\_random &
+		100g/500000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  2/2 &  0.0 &  0 &  7.57
+	\\
+	merge &
+		100g/500000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  2/2 &  0.0 &  0 &  7.59
+	\\
+	subproblem\_greedy &
+		100g/500000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  2/2 &  0.0 &  0 &  8.02
+	\\
+	greedy\_merge &
+		100g/500000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  2/2 &  0.0 &  0 &  8.95
+	\\
+	greedy\_merge &
+		10g/5000000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  2/2 &  0.0 &  0 &  72.66
+	\\
+	subproblem\_greedy &
+		10g/5000000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  1/1 &  0.0 &  0 &  74.55
+	\\
+	subproblem\_random &
+		10g/5000000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  2/2 &  0.0 &  0 &  92.7
+	\\
+	merge &
+		10g/5000000steps
+	 &&
+			\textbf{9}
+	&  9.0 &  2/2 &  0.0 &  0 &  110.93
+	\\
+\end{longtable}

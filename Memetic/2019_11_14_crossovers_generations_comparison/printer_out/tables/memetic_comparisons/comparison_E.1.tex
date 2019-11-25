@@ -1,0 +1,142 @@
+%!TEX root = ../main.tex
+\rowcolors{1}{gray!10}{white}
+\begin{longtable}{@{\extracolsep{0pt}}cc{c}cccccc}
+	\hiderowcolors
+	\caption{Memetic parameter comparison for E.1}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endfirsthead
+	\caption{Memetic parameter comparison for E.1 (continued)}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\showrowcolors
+	merge &
+		10g/1500000steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  19 &  58.63
+	\\
+	subproblem\_greedy &
+		100g/150000steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  20 &  3.62
+	\\
+	merge &
+		1000g/15000steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  24 &  0.37
+	\\
+	subproblem\_greedy &
+		100000g/150steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  34 &  0.01
+	\\
+	greedy\_merge &
+		1000g/15000steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  37 &  0.39
+	\\
+	subproblem\_random &
+		100g/150000steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  37 &  4.04
+	\\
+	merge &
+		10000g/1500steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  43 &  0.06
+	\\
+	subproblem\_random &
+		10000g/1500steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  58 &  0.04
+	\\
+	merge &
+		100000g/150steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  62 &  0.01
+	\\
+	subproblem\_random &
+		10g/1500000steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  69 &  43.73
+	\\
+	subproblem\_greedy &
+		1000g/15000steps
+	 &&
+			\textbf{5}
+	&  5.0 &  1/1 &  0.0 &  70 &  0.4
+	\\
+	greedy\_merge &
+		10000g/1500steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  85 &  0.04
+	\\
+	subproblem\_greedy &
+		10g/1500000steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  91 &  38.32
+	\\
+	greedy\_merge &
+		10g/1500000steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  96 &  39.16
+	\\
+	subproblem\_random &
+		100000g/150steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  96 &  0.01
+	\\
+	subproblem\_greedy &
+		10000g/1500steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  106 &  0.04
+	\\
+	greedy\_merge &
+		100g/150000steps
+	 &&
+			\textbf{5}
+	&  5.0 &  1/1 &  0.0 &  116 &  3.73
+	\\
+	greedy\_merge &
+		100000g/150steps
+	 &&
+			\textbf{5}
+	&  5.0 &  1/1 &  0.0 &  130 &  0.01
+	\\
+	subproblem\_random &
+		1000g/15000steps
+	 &&
+			\textbf{5}
+	&  5.0 &  1/1 &  0.0 &  138 &  0.41
+	\\
+	merge &
+		100g/150000steps
+	 &&
+			\textbf{5}
+	&  5.0 &  2/2 &  0.0 &  155 &  3.97
+	\\
+\end{longtable}

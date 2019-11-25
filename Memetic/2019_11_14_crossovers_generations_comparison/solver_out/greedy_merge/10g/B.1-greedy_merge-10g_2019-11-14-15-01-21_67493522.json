@@ -1,0 +1,122 @@
+{
+    "date": "2019-11-14T15:01:21Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "B.1",
+                        "points_number": 300,
+                        "reduced": false,
+                        "subsets_number": 3000
+                    },
+                    "selected_subsets": [
+                        31,
+                        35,
+                        36,
+                        93,
+                        240,
+                        276,
+                        359,
+                        404,
+                        659,
+                        660,
+                        688,
+                        716,
+                        717,
+                        810,
+                        869,
+                        876,
+                        900,
+                        946,
+                        1395,
+                        1413,
+                        1444,
+                        1896,
+                        2176,
+                        2463
+                    ]
+                },
+                "time": 0.005994496
+            },
+            "instance": {
+                "name": "B.1",
+                "points_number": 300,
+                "reduced": false,
+                "subsets_number": 3000
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "greedy_merge",
+                    "ended_at": {
+                        "generation": 10,
+                        "rwls_cumulative_position": {
+                            "steps": 30000000,
+                            "time": 2599.650541056
+                        },
+                        "time": 2599.689993472
+                    },
+                    "found_at": {
+                        "generation": 0,
+                        "rwls_cumulative_position": {
+                            "steps": 19568,
+                            "time": 1.746723584
+                        },
+                        "time": 144.93098624
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "B.1",
+                            "points_number": 300,
+                            "reduced": false,
+                            "subsets_number": 3000
+                        },
+                        "selected_subsets": [
+                            240,
+                            364,
+                            442,
+                            467,
+                            659,
+                            688,
+                            715,
+                            883,
+                            896,
+                            944,
+                            1199,
+                            1230,
+                            1372,
+                            1396,
+                            1444,
+                            1896,
+                            1967,
+                            2105,
+                            2176,
+                            2587,
+                            2667,
+                            2818
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 1500000,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 10,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

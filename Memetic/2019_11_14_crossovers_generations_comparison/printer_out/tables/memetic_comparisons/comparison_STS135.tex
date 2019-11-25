@@ -1,0 +1,142 @@
+%!TEX root = ../main.tex
+\rowcolors{1}{gray!10}{white}
+\begin{longtable}{@{\extracolsep{0pt}}cc{c}cccccc}
+	\hiderowcolors
+	\caption{Memetic parameter comparison for STS135}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endfirsthead
+	\caption{Memetic parameter comparison for STS135 (continued)}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\showrowcolors
+	greedy\_merge &
+		100000g/500steps
+	 &&
+			\textbf{103}
+	&  103.0 &  1/1 &  11.0 &  11 360 &  0.49
+	\\
+	subproblem\_random &
+		10g/5000000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  0.0 &  170 927 &  174.27
+	\\
+	merge &
+		100g/500000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  0.0 &  215 937 &  14.61
+	\\
+	greedy\_merge &
+		100g/500000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  1/1 &  0.0 &  224 969 &  29.39
+	\\
+	subproblem\_random &
+		100g/500000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  0.0 &  237 396 &  26.5
+	\\
+	subproblem\_greedy &
+		100g/500000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  0.0 &  273 786 &  35.83
+	\\
+	subproblem\_greedy &
+		100000g/500steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  292.5 &  292 581 &  16.02
+	\\
+	subproblem\_greedy &
+		1000g/50000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  3.0 &  316 708 &  10.94
+	\\
+	merge &
+		100000g/500steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  346.0 &  346 024 &  13.54
+	\\
+	subproblem\_random &
+		100000g/500steps
+	 &&
+			\textbf{103}
+	&  103.0 &  1/1 &  454.0 &  454 409 &  14.87
+	\\
+	greedy\_merge &
+		1000g/50000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  4.5 &  461 242 &  14.09
+	\\
+	subproblem\_random &
+		1000g/50000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  4.5 &  475 505 &  18.1
+	\\
+	subproblem\_greedy &
+		10000g/5000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  51.0 &  513 622 &  14.06
+	\\
+	merge &
+		10g/5000000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  0.0 &  712 469 &  151.12
+	\\
+	subproblem\_greedy &
+		10g/5000000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  0.0 &  751 737 &  170.94
+	\\
+	greedy\_merge &
+		10g/5000000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  1/1 &  0.0 &  759 071 &  199.35
+	\\
+	subproblem\_random &
+		10000g/5000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  1/1 &  95.0 &  951 953 &  25.3
+	\\
+	greedy\_merge &
+		10000g/5000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  98.5 &  986 391 &  27.58
+	\\
+	merge &
+		1000g/50000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  10.5 &  1 078 800 &  37.64
+	\\
+	merge &
+		10000g/5000steps
+	 &&
+			\textbf{103}
+	&  103.0 &  2/2 &  173.0 &  1 731 096 &  81.57
+	\\
+\end{longtable}

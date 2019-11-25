@@ -1,0 +1,227 @@
+{
+    "comparison": {
+        "exist": true,
+        "instance": {
+            "bks": 594,
+            "name": "RAIL4284"
+        },
+        "results": [
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 360.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 10,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_random",
+                "result": {
+                    "average": 667.0,
+                    "best": 667,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 7.0,
+                    "steps": 648470.0,
+                    "time": 25776.772935424,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 360.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 10,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "greedy\\_merge",
+                "result": {
+                    "average": 669.0,
+                    "best": 669,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 9.0,
+                    "steps": 827731.0,
+                    "time": 27869.09107968,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 36.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 100,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_random",
+                "result": {
+                    "average": 745.0,
+                    "best": 742,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 96.0,
+                    "steps": 1147575.0,
+                    "time": 31230.187729664,
+                    "total_number": 2
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 36.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 100,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 743.0,
+                    "best": 743,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 72.0,
+                    "steps": 871171.0,
+                    "time": 29969.547351552,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 36.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 100,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "greedy\\_merge",
+                "result": {
+                    "average": 744.0,
+                    "best": 744,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 8.0,
+                    "steps": 96257.0,
+                    "time": 24397.154164736,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 3.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 1000,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "merge",
+                "result": {
+                    "average": 781.0,
+                    "best": 781,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 462.0,
+                    "steps": 470931.0,
+                    "time": 26606.962393344,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 3.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 1000,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_random",
+                "result": {
+                    "average": 791.0,
+                    "best": 791,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 999.0,
+                    "steps": 996981.0,
+                    "time": 31115.671152384,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 3.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 1000,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 792.0,
+                    "best": 792,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 724.0,
+                    "steps": 724827.0,
+                    "time": 28188.430337024,
+                    "total_number": 1
+                }
+            }
+        ]
+    }
+}

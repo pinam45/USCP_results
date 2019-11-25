@@ -1,0 +1,281 @@
+{
+    "comparison": {
+        "exist": true,
+        "instance": {
+            "bks": 879,
+            "name": "RAIL4872"
+        },
+        "results": [
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 360.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 10,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_random",
+                "result": {
+                    "average": 943.0,
+                    "best": 943,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 2.0,
+                    "steps": 309426.0,
+                    "time": 18161.795110656,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 360.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 10,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 943.0,
+                    "best": 943,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 6.0,
+                    "steps": 1322186.0,
+                    "time": 18459.921484288,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 360.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 10,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "merge",
+                "result": {
+                    "average": 947.0,
+                    "best": 947,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 5.0,
+                    "steps": 918048.0,
+                    "time": 22718.153474816,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 36.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 100,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_random",
+                "result": {
+                    "average": 1027.0,
+                    "best": 1021,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 97.0,
+                    "steps": 2361747.0,
+                    "time": 22354.878147072,
+                    "total_number": 2
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 36.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 100,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 1023.0,
+                    "best": 1023,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 68.0,
+                    "steps": 1567185.0,
+                    "time": 23151.924492288,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 36.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 100,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "greedy\\_merge",
+                "result": {
+                    "average": 1031.0,
+                    "best": 1031,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 21.0,
+                    "steps": 445039.0,
+                    "time": 21416.022887168,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 3.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 1000,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "greedy\\_merge",
+                "result": {
+                    "average": 1042.0,
+                    "best": 1042,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 996.0,
+                    "steps": 2222261.0,
+                    "time": 26749.30660352,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 3.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 1000,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 1045.0,
+                    "best": 1045,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 710.0,
+                    "steps": 1591866.0,
+                    "time": 22263.453496832,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 3.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 1000,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_random",
+                "result": {
+                    "average": 1064.0,
+                    "best": 1064,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 693.0,
+                    "steps": 1772668.0,
+                    "time": 19847.180914176,
+                    "total_number": 1
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 18446744073709551615,
+                        "time": 3.0
+                    },
+                    "stopping_criterion": {
+                        "generation": 1000,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "merge",
+                "result": {
+                    "average": 1065.0,
+                    "best": 1065,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 526.0,
+                    "steps": 1215007.0,
+                    "time": 18998.825502976,
+                    "total_number": 1
+                }
+            }
+        ]
+    }
+}

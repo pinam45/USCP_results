@@ -1,0 +1,130 @@
+%!TEX root = ../main.tex
+\rowcolors{1}{gray!10}{white}
+\begin{longtable}{@{\extracolsep{0pt}}cc{c}cccccc}
+	\hiderowcolors
+	\caption{Memetic parameter comparison for STS729}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endfirsthead
+	\caption{Memetic parameter comparison for STS729 (continued)}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\showrowcolors
+	subproblem\_greedy &
+		100g/500000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  2/2 &  0.0 &  115 554 &  171.44
+	\\
+	greedy\_merge &
+		100g/500000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  1/1 &  0.0 &  125 466 &  250.72
+	\\
+	subproblem\_random &
+		100g/500000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  1/1 &  0.0 &  131 974 &  234.28
+	\\
+	greedy\_merge &
+		10g/5000000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  1/1 &  0.0 &  200 730 &  1097.3
+	\\
+	subproblem\_random &
+		10g/5000000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  2/2 &  0.0 &  374 186 &  1654.14
+	\\
+	subproblem\_greedy &
+		10g/5000000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  1/1 &  0.0 &  627 929 &  1107.92
+	\\
+	merge &
+		100g/500000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  2/2 &  0.5 &  669 357 &  240.89
+	\\
+	merge &
+		10g/5000000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  2/2 &  0.0 &  1 050 612 &  1896.57
+	\\
+	subproblem\_random &
+		1000g/50000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  1/1 &  12.0 &  1 209 618 &  289.53
+	\\
+	greedy\_merge &
+		100000g/500steps
+	 &&
+			\textbf{617}
+	&  617.0 &  1/1 &  2844.0 &  2 844 255 &  1983.07
+	\\
+	subproblem\_random &
+		100000g/500steps
+	 &&
+			\textbf{617}
+	&  617.0 &  2/2 &  3122.0 &  3 122 389 &  1025.44
+	\\
+	subproblem\_random &
+		10000g/5000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  1/1 &  352.0 &  3 521 231 &  823.16
+	\\
+	greedy\_merge &
+		10000g/5000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  2/2 &  476.5 &  4 767 038 &  1366.32
+	\\
+	merge &
+		100000g/500steps
+	 &&
+			\textbf{617}
+	&  617.0 &  1/1 &  5597.0 &  5 597 452 &  4563.2
+	\\
+	greedy\_merge &
+		1000g/50000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  1/1 &  151.0 &  15 138 955 &  3721.77
+	\\
+	subproblem\_greedy &
+		10000g/5000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  2/2 &  1670.5 &  16 707 712 &  9770.61
+	\\
+	merge &
+		1000g/50000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  2/2 &  187.0 &  18 719 503 &  4304.77
+	\\
+	merge &
+		10000g/5000steps
+	 &&
+			\textbf{617}
+	&  617.0 &  1/1 &  3963.0 &  39 631 255 &  8918.82
+	\\
+\end{longtable}

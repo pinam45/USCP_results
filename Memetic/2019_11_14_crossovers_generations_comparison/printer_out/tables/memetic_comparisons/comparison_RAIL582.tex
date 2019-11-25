@@ -1,0 +1,88 @@
+%!TEX root = ../main.tex
+\rowcolors{1}{gray!10}{white}
+\begin{longtable}{@{\extracolsep{0pt}}cc{c}cccccc}
+	\hiderowcolors
+	\caption{Memetic parameter comparison for RAIL582}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endfirsthead
+	\caption{Memetic parameter comparison for RAIL582 (continued)}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\showrowcolors
+	subproblem\_greedy &
+		10g/360seconds
+	 &&
+			127
+	&  127.0 &  1/1 &  1.0 &  17 760 720 &  1440.02
+	\\
+	greedy\_merge &
+		10g/360seconds
+	 &&
+			127
+	&  127.0 &  1/1 &  4.0 &  57 581 740 &  3240.03
+	\\
+	subproblem\_random &
+		10g/360seconds
+	 &&
+			127
+	&  127.5 &  1/2 &  4.0 &  59 556 473 &  3240.05
+	\\
+	merge &
+		10g/360seconds
+	 &&
+			127
+	&  127.0 &  1/1 &  5.0 &  69 258 934 &  3960.02
+	\\
+	subproblem\_greedy &
+		100g/36seconds
+	 &&
+			127
+	&  127.0 &  1/1 &  77.0 &  100 746 911 &  5580.36
+	\\
+	merge &
+		100g/36seconds
+	 &&
+			128
+	&  128.0 &  2/2 &  1.0 &  1 600 236 &  108.01
+	\\
+	subproblem\_random &
+		100g/36seconds
+	 &&
+			128
+	&  128.0 &  2/2 &  4.0 &  3 080 681 &  342.13
+	\\
+	merge &
+		1000g/3seconds
+	 &&
+			128
+	&  128.0 &  2/2 &  401.0 &  47 415 275 &  2412.89
+	\\
+	subproblem\_random &
+		1000g/3seconds
+	 &&
+			128
+	&  128.5 &  1/2 &  467.0 &  58 781 730 &  2809.48
+	\\
+	greedy\_merge &
+		1000g/3seconds
+	 &&
+			129
+	&  129.0 &  1/1 &  18.0 &  1 937 167 &  114.42
+	\\
+	subproblem\_greedy &
+		1000g/3seconds
+	 &&
+			129
+	&  129.0 &  1/1 &  17.0 &  2 071 372 &  105.09
+	\\
+\end{longtable}
