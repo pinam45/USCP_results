@@ -1,4 +1,4 @@
-# 2019/10/26 Complete benchmark
+# 2019/10/18 Complete benchmark
 
 In this benchmark, we wanted to check that we obtain experimental results similar to those reported in [Gao2015]. In the article the results are given for 10 repetitions, here 100 repetitions were made.
 
@@ -61,7 +61,7 @@ The document contains:
 
 To generate this document, the printer was run using:
 ```
-./solver --input=${HOME}/solver_out --rwls_stats
+./solver --input=<repository_path>/RWLS/2019_10_18_complete_benchmark/solver_out --rwls_stats
 ```
 
 ## References
