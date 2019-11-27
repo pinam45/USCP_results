@@ -1,0 +1,65 @@
+{
+    "comparison": {
+        "exist": true,
+        "instance": {
+            "bks": 772,
+            "name": "CYC9"
+        },
+        "results": [
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 18446744073709551615,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 36000.0
+                    }
+                },
+                "crossover_operator": "subproblem\\_random",
+                "result": {
+                    "average": 776.12,
+                    "best": 772,
+                    "best_number": 29,
+                    "exist": true,
+                    "generations": 2253.5172413793107,
+                    "steps": 676178389.6896551,
+                    "time": 17025.02467739366,
+                    "total_number": 100
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 18446744073709551615,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 36000.0
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 776.1400000000003,
+                    "best": 772,
+                    "best_number": 26,
+                    "exist": true,
+                    "generations": 2329.3846153846157,
+                    "steps": 698945528.3076924,
+                    "time": 18065.917683239382,
+                    "total_number": 100
+                }
+            }
+        ]
+    }
+}

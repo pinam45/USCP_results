@@ -1,0 +1,65 @@
+{
+    "comparison": {
+        "exist": true,
+        "instance": {
+            "bks": 3968,
+            "name": "CYC11"
+        },
+        "results": [
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 18446744073709551615,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 36000.0
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 4434.020202020202,
+                    "best": 4415,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 27.0,
+                    "steps": 8249012.0,
+                    "time": 3467.453229568,
+                    "total_number": 99
+                }
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 18446744073709551615,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 36000.0
+                    }
+                },
+                "crossover_operator": "subproblem\\_random",
+                "result": {
+                    "average": 4435.29,
+                    "best": 4418,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 982.0,
+                    "steps": 294747730.0,
+                    "time": 24750.559867648,
+                    "total_number": 100
+                }
+            }
+        ]
+    }
+}
