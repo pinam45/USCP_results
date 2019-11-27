@@ -1,4 +1,4 @@
-# 2019/11/14 Crossovers generations comparison
+# 2019/11/12 Crossovers generations comparison
 
 In this benchmark, we wanted to select the best parameters for the Memetic algorithm. As the Memetic algorithm uses RWLS as a local search, the results were compared to the results of the [RWLS complete benchmark](../../RWLS/2019_10_18_complete_benchmark). To be able to compare the algorithm with RWLS, the total number of steps is fixed to the same value as in [Gao2015] and the complete benchmark.
 
@@ -29,7 +29,7 @@ The document contains:
 
 To generate this document, the printer was run using:
 ```
-./solver --input=<repository_path>/RWLS/2019_10_18_complete_benchmark/solver_out,<repository_path>/Memetic/2019_11_14_crossovers_generations_comparison/solver_out --rwls_stats --memetic_comparisons
+./solver --input=<repository_path>/RWLS/2019_10_18_complete_benchmark/solver_out,<repository_path>/Memetic/2019_11_12_crossovers_generations_comparison/solver_out --rwls_stats --memetic_comparisons
 ```
 
 ## References
