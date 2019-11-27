@@ -1,0 +1,38 @@
+{
+    "comparison": {
+        "exist": true,
+        "instance": {
+            "bks": 16,
+            "name": "NRE.3"
+        },
+        "results": [
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 100,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 16.800000000000004,
+                    "best": 16,
+                    "best_number": 7,
+                    "exist": true,
+                    "generations": 55.142857142857146,
+                    "steps": 16622646.285714285,
+                    "time": 2108.1289097142853,
+                    "total_number": 35
+                }
+            }
+        ]
+    }
+}

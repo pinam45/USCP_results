@@ -1,0 +1,111 @@
+{
+    "date": "2019-11-14T22:53:36Z",
+    "git": {
+        "head_sha1": "7b09d19b1814b14a5018ab8964ab757254f7b10a",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "NRE.4",
+                        "points_number": 500,
+                        "reduced": false,
+                        "subsets_number": 5000
+                    },
+                    "selected_subsets": [
+                        58,
+                        183,
+                        302,
+                        447,
+                        449,
+                        1193,
+                        1241,
+                        1474,
+                        1572,
+                        1680,
+                        1775,
+                        1973,
+                        2117,
+                        2118,
+                        2842,
+                        3314,
+                        4346,
+                        4863
+                    ]
+                },
+                "time": 0.003967488
+            },
+            "instance": {
+                "name": "NRE.4",
+                "points_number": 500,
+                "reduced": false,
+                "subsets_number": 5000
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "subproblem_greedy",
+                    "ended_at": {
+                        "generation": 100,
+                        "rwls_cumulative_position": {
+                            "steps": 30000000,
+                            "time": 2460.082356223999
+                        },
+                        "time": 2460.436864768
+                    },
+                    "found_at": {
+                        "generation": 0,
+                        "rwls_cumulative_position": {
+                            "steps": 62404,
+                            "time": 4.551016192
+                        },
+                        "time": 12.138585088
+                    },
+                    "solution_final": {
+                        "problem": {
+                            "name": "NRE.4",
+                            "points_number": 500,
+                            "reduced": false,
+                            "subsets_number": 5000
+                        },
+                        "selected_subsets": [
+                            455,
+                            1143,
+                            1159,
+                            1527,
+                            1631,
+                            1826,
+                            2255,
+                            2457,
+                            2558,
+                            2982,
+                            3038,
+                            3314,
+                            3422,
+                            3724,
+                            3828,
+                            3899,
+                            4701
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 150000,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "stopping_criterion": {
+                            "generation": 100,
+                            "rwls_cumulative_position": {
+                                "steps": 18446744073709551615,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

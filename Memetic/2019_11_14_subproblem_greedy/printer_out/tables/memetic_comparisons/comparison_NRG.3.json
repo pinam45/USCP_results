@@ -1,0 +1,38 @@
+{
+    "comparison": {
+        "exist": true,
+        "instance": {
+            "bks": 61,
+            "name": "NRG.3"
+        },
+        "results": [
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 100,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 61.91891891891892,
+                    "best": 61,
+                    "best_number": 5,
+                    "exist": true,
+                    "generations": 57.6,
+                    "steps": 17399067.6,
+                    "time": 2840.4847704064,
+                    "total_number": 37
+                }
+            }
+        ]
+    }
+}

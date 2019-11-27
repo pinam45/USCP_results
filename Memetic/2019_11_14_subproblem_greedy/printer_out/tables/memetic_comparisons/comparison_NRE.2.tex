@@ -1,0 +1,28 @@
+%!TEX root = ../main.tex
+\rowcolors{1}{gray!10}{white}
+\begin{longtable}{@{\extracolsep{0pt}}cc{c}cccccc}
+	\hiderowcolors
+	\caption{Memetic parameter comparison for NRE.2}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endfirsthead
+	\caption{Memetic parameter comparison for NRE.2 (continued)}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\showrowcolors
+	subproblem\_greedy &
+		100g/150000steps
+	 &&
+			\textbf{16}
+	&  16.9 &  4/34 &  38.0 &  11 500 169 &  2451.73
+	\\
+\end{longtable}

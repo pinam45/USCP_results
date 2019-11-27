@@ -1,0 +1,28 @@
+%!TEX root = ../main.tex
+\rowcolors{1}{gray!10}{white}
+\begin{longtable}{@{\extracolsep{0pt}}cc{c}cccccc}
+	\hiderowcolors
+	\caption{Memetic parameter comparison for CYC10}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endfirsthead
+	\caption{Memetic parameter comparison for CYC10 (continued)}\\
+	\toprule
+	\multicolumn{2}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-2}\cmidrule{4-9}
+	Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\showrowcolors
+	subproblem\_greedy &
+		100g/500000steps
+	 &&
+			1802
+	&  1804.3 &  2/31 &  46.0 &  46 415 484 &  1422.96
+	\\
+\end{longtable}

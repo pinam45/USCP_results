@@ -1,4 +1,4 @@
-# 2019/11/12 Crossovers generations comparison
+# 2019/11/12 Crossovers/generations comparison
 
 In this benchmark, we wanted to select the best parameters for the Memetic algorithm. As the Memetic algorithm uses RWLS as a local search, the results were compared to the results of the [RWLS complete benchmark](../../RWLS/2019_10_18_complete_benchmark). To be able to compare the algorithm with RWLS, the total number of steps is fixed to the same value as in [Gao2015](../../References.md) and the complete benchmark.
 
@@ -7,9 +7,8 @@ The number of steps fixed, only the crossover operator and the number of crossov
  - generations: 10, 100, 1 000, 10 000, 100 000
 
 Results are:
- - It seems that a solution crossover alone doesn't bring improvement compared to RWLS "alone"
- - RWLS may not be influenced enouth by the initial solution
- - RWLS may more rely on the information of the points weight
+ - Generally the subproblem_greedy crossover operator with 100 generations give the best results
+ - There is not enough repetitions to determine if the crossover brings improvement (see [subproblem greedy benchmark](../2019_11_14_subproblem_greedy))
 
 For more details, see the printer output.
 

@@ -1,0 +1,38 @@
+{
+    "comparison": {
+        "exist": true,
+        "instance": {
+            "bks": 34,
+            "name": "NRH.4"
+        },
+        "results": [
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 100,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 34.1,
+                    "best": 34,
+                    "best_number": 27,
+                    "exist": true,
+                    "generations": 29.888888888888886,
+                    "steps": 9058022.370370371,
+                    "time": 1367.0966650974815,
+                    "total_number": 30
+                }
+            }
+        ]
+    }
+}
