@@ -1,6 +1,6 @@
 # 2019/10/18 Complete benchmark
 
-In this benchmark, we wanted to check that we obtain experimental results similar to those reported in [Gao2015]. In the article the results are given for 10 repetitions, here 100 repetitions were made.
+In this benchmark, we wanted to check that we obtain experimental results similar to those reported in [Gao2015](../../References.md). In the article the results are given for 10 repetitions, here 100 repetitions were made.
 
 Results are:
  - For most of the instances, the best solution fitness correspond the article results
@@ -11,15 +11,15 @@ For more details, see the printer output.
 
 ## Solver output
 
-The solver was run 100 times on each of the 96 instances with parameters used in [Gao2015] to be able to compare them with the authors results. For most instances the article give results with a time limit and with a steps limit, the steps limit was used here so the machine running the algorithm doesn't influence the results.
+The solver was run 100 times on each of the 96 instances with parameters used in [Gao2015](../../References.md) to be able to compare them with the authors results. For most instances the article give results with a time limit and with a steps limit, the steps limit was used here so the machine running the algorithm doesn't influence the results.
 
-The script used to submit the 96 * 100 = 9600 jobs to slurm is [submit_all.sh](scripts/submit_all.sh). This script submit jobs with run scripts depending on the on the instance type, see below for details.
+The script used to submit the 96 * 100 = 9600 jobs to slurm is [submit_all.sh](./scripts/submit_all.sh). This script submit jobs with run scripts depending on the on the instance type, see below for details.
 
 ### Base instances (OR-Library base instances)
 
-"*RWLS uses a maximum search iteration of $3 \times{} 10^7$ as its stopping criterion.*"[Gao2015]
+"*RWLS uses a maximum search iteration of $3 \times{} 10^7$ as its stopping criterion.*" *[Gao2015](../../References.md)*
 
-In [Gao2015], they put a limit of **3 * 10^7 steps** as stopping criterion for these instances. Here the program was run with the same maximum steps number using the script [run_base.sh](scripts/run_base.sh).
+In [Gao2015](../../References.md), they put a limit of **3 * 10^7 steps** as stopping criterion for these instances. Here the program was run with the same maximum steps number using the script [run_base.sh](./scripts/run_base.sh).
 
 Comma separated list of instances names:
 ```
@@ -28,9 +28,9 @@ Comma separated list of instances names:
 
 ### Unicost instances (OR-Library CYC CLR instances and Steiner triple covering problem instances)
 
-"*For RWLS, the stopping criterion is set as a maximum iteration number of $1 \times{} 10^8$.*"[Gao2015]
+"*For RWLS, the stopping criterion is set as a maximum iteration number of $1 \times{} 10^8$.*" *[Gao2015](../../References.md)*
 
-In [Gao2015], they put a limit of **10^8 steps** as stopping criterion for these instances. Here the program was run with the same maximum steps number using the script [run_unicost.sh](scripts/run_unicost.sh).
+In [Gao2015](../../References.md), they put a limit of **10^8 steps** as stopping criterion for these instances. Here the program was run with the same maximum steps number using the script [run_unicost.sh](./scripts/run_unicost.sh).
 
 Comma separated list of instances names:
 ```
@@ -39,13 +39,13 @@ CLR10,CLR11,CLR12,CLR13,CYC6,CYC7,CYC8,CYC9,CYC10,CYC11,STS9,STS15,STS27,STS45,S
 
 ### RAIL instances (OR-Library RAIL instances)
 
-"*We set the maximum runtime for RWLS-R and 3FNLS to 100 seconds for instances RAIL507, RAIL516 and RAIL586, and 1000 seconds for RAIL2536, RAIL2586, RAIL4284 and RAIL4872 because of their larger sizes.*"[Gao2015]
+"*We set the maximum runtime for RWLS-R and 3FNLS to 100 seconds for instances RAIL507, RAIL516 and RAIL586, and 1000 seconds for RAIL2536, RAIL2586, RAIL4284 and RAIL4872 because of their larger sizes.*" *[Gao2015](../../References.md)*
 
-In [Gao2015], they use a modified version of RWLS called RWLS-R (see the article for more details), this algorithm was not implemented and the basic RWLS was used, making these results not comparable with the authors results.
+In [Gao2015](../../References.md), they use a modified version of RWLS called RWLS-R (see the article for more details), this algorithm was not implemented and the basic RWLS was used, making these results not comparable with the authors results.
 
 They put a limit of 100 seconds for RAIL507, RAIL516, RAIL586 and 1000 seconds for RAIL2536, RAIL2586, RAIL4284, as with a time limit the number of steps will depend on the machine running the solver, and the algorithm used is not the same, a time limit of **7200 seconds** was used.
 
-The program was run using the script [run_rail.sh](scripts/run_rail.sh) for RAIL507, RAIL516, RAIL586 and using the script [run_rail_large.sh](scripts/run_rail_large.sh) for RAIL2536, RAIL2586, RAIL4284 which compile the program in Low Memory Footprint mode because of the large size of the instances.
+The program was run using the script [run_rail.sh](./scripts/run_rail.sh) for RAIL507, RAIL516, RAIL586 and using the script [run_rail_large.sh](./scripts/run_rail_large.sh) for RAIL2536, RAIL2586, RAIL4284 which compile the program in Low Memory Footprint mode because of the large size of the instances.
 
 Comma separated list of instances names:
 ```
@@ -62,22 +62,4 @@ The document contains:
 To generate this document, the printer was run using:
 ```
 ./solver --input=<repository_path>/RWLS/2019_10_18_complete_benchmark/solver_out --rwls_stats
-```
-
-## References
-
-```BibTeX
-@Article{Gao2015,
-  author       = {Chao Gao and Xin Yao and Thomas Weise and Jinlong Li},
-  title        = {An efficient local search heuristic with row weighting for the unicost set covering problem},
-  journaltitle = {European Journal of Operational Research},
-  date         = {2015},
-  volume       = {246},
-  number       = {3},
-  pages        = {750-761},
-  issn         = {0377-2217},
-  doi          = {10.1016/j.ejor.2015.05.038},
-  groups       = {Local search, Reviewed},
-  keywords     = {Combinatorial optimization, Unicost set covering problem, Row weighting local search},
-}
 ```
