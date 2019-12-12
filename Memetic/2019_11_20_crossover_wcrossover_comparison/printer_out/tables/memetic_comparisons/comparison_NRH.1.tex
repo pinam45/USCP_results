@@ -1,0 +1,78 @@
+%!TEX root = ../main.tex
+\rowcolors{1}{gray!10}{white}
+\begin{longtable}{@{\extracolsep{0pt}}ccc{c}cccccc}
+	\hiderowcolors
+	\caption{Memetic parameter comparison for NRH.1}\\
+	\toprule
+	\multicolumn{3}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-3}\cmidrule{5-10}
+	Crossover & Weights Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endfirsthead
+	\caption{Memetic parameter comparison for NRH.1 (continued)}\\
+	\toprule
+	\multicolumn{3}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-3}\cmidrule{5-10}
+	Crossover & Weights Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\showrowcolors
+	subproblem\_greedy &
+	average &
+		101g/150000steps
+	 &&
+		\textbf{33*}
+	&  34.0 &  2/109 &  61.0 &  18 369 412 &  2109.68
+	\\
+	identity &
+	mix\_random &
+		101g/150000steps
+	 &&
+		\textbf{33*}
+	&  34.0 &  2/104 &  74.0 &  22 234 548 &  1351.89
+	\\
+	identity &
+	keep &
+		101g/150000steps
+	 &&
+		\textbf{33*}
+	&  34.0 &  1/105 &  32.0 &  9 600 020 &  706.86
+	\\
+	identity &
+	average &
+		101g/150000steps
+	 &&
+			\textbf{34}
+	&  34.0 &  104/104 &  23.4 &  7 087 200 &  514.34
+	\\
+	subproblem\_greedy &
+	mix\_random &
+		101g/150000steps
+	 &&
+			\textbf{34}
+	&  34.0 &  102/103 &  17.7 &  5 401 835 &  351.49
+	\\
+	subproblem\_greedy &
+	keep &
+		101g/150000steps
+	 &&
+			\textbf{34}
+	&  34.0 &  102/104 &  22.1 &  6 716 913 &  482.81
+	\\
+	identity &
+	reset &
+		101g/150000steps
+	 &&
+			\textbf{34}
+	&  34.1 &  98/105 &  31.5 &  9 540 656 &  635.95
+	\\
+	subproblem\_greedy &
+	reset &
+		101g/150000steps
+	 &&
+			\textbf{34}
+	&  34.1 &  97/104 &  39.5 &  11 958 675 &  762.2
+	\\
+\end{longtable}

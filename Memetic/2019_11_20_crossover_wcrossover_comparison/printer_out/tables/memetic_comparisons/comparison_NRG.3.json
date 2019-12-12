@@ -1,0 +1,235 @@
+{
+    "comparison": {
+        "exist": true,
+        "instance": {
+            "bks": 61,
+            "name": "NRG.3"
+        },
+        "results": [
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 101,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "identity",
+                "result": {
+                    "average": 61.476190476190474,
+                    "best": 60,
+                    "best_number": 2,
+                    "exist": true,
+                    "generations": 41.5,
+                    "steps": 12486161.5,
+                    "time": 265.6028864,
+                    "total_number": 105
+                },
+                "wcrossover_operator": "mix\\_random"
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 101,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "identity",
+                "result": {
+                    "average": 61.36190476190478,
+                    "best": 60,
+                    "best_number": 2,
+                    "exist": true,
+                    "generations": 70.5,
+                    "steps": 21231660.5,
+                    "time": 184.161353216,
+                    "total_number": 105
+                },
+                "wcrossover_operator": "keep"
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 101,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 61.35922330097089,
+                    "best": 60,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 52.0,
+                    "steps": 15644638.0,
+                    "time": 235.75715712,
+                    "total_number": 103
+                },
+                "wcrossover_operator": "mix\\_random"
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 101,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 61.39423076923076,
+                    "best": 60,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 72.0,
+                    "steps": 21618828.0,
+                    "time": 191.04013824,
+                    "total_number": 104
+                },
+                "wcrossover_operator": "keep"
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 101,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 61.342592592592595,
+                    "best": 60,
+                    "best_number": 1,
+                    "exist": true,
+                    "generations": 95.0,
+                    "steps": 28561821.0,
+                    "time": 241.855954432,
+                    "total_number": 108
+                },
+                "wcrossover_operator": "average"
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 101,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "identity",
+                "result": {
+                    "average": 61.466666666666676,
+                    "best": 61,
+                    "best_number": 56,
+                    "exist": true,
+                    "generations": 45.10714285714287,
+                    "steps": 13568963.196428567,
+                    "time": 239.8249254217143,
+                    "total_number": 105
+                },
+                "wcrossover_operator": "average"
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 101,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "subproblem\\_greedy",
+                "result": {
+                    "average": 61.91346153846153,
+                    "best": 61,
+                    "best_number": 10,
+                    "exist": true,
+                    "generations": 50.6,
+                    "steps": 15303051.000000002,
+                    "time": 179.10370734079999,
+                    "total_number": 104
+                },
+                "wcrossover_operator": "reset"
+            },
+            {
+                "config": {
+                    "rwls_stopping_criterion": {
+                        "steps": 150000,
+                        "time": 1.8446744073709552e+19
+                    },
+                    "stopping_criterion": {
+                        "generation": 101,
+                        "rwls_cumulative_position": {
+                            "steps": 18446744073709551615,
+                            "time": 1.8446744073709552e+19
+                        },
+                        "time": 1.8446744073709552e+19
+                    }
+                },
+                "crossover_operator": "identity",
+                "result": {
+                    "average": 61.90476190476193,
+                    "best": 61,
+                    "best_number": 10,
+                    "exist": true,
+                    "generations": 57.3,
+                    "steps": 17302433.200000003,
+                    "time": 300.297160448,
+                    "total_number": 105
+                },
+                "wcrossover_operator": "reset"
+            }
+        ]
+    }
+}

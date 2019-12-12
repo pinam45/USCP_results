@@ -1,0 +1,78 @@
+%!TEX root = ../main.tex
+\rowcolors{1}{gray!10}{white}
+\begin{longtable}{@{\extracolsep{0pt}}ccc{c}cccccc}
+	\hiderowcolors
+	\caption{Memetic parameter comparison for CYC8}\\
+	\toprule
+	\multicolumn{3}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-3}\cmidrule{5-10}
+	Crossover & Weights Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endfirsthead
+	\caption{Memetic parameter comparison for CYC8 (continued)}\\
+	\toprule
+	\multicolumn{3}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-3}\cmidrule{5-10}
+	Crossover & Weights Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\showrowcolors
+	subproblem\_greedy &
+	average &
+		334g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  108/108 &  0.3 &  156 272 &  0.66
+	\\
+	identity &
+	average &
+		334g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  105/105 &  0.3 &  166 826 &  0.63
+	\\
+	subproblem\_greedy &
+	reset &
+		334g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  104/104 &  0.2 &  143 376 &  0.55
+	\\
+	identity &
+	keep &
+		334g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  104/104 &  0.3 &  158 329 &  0.54
+	\\
+	identity &
+	reset &
+		334g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  104/104 &  0.3 &  162 661 &  0.61
+	\\
+	subproblem\_greedy &
+	keep &
+		334g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  104/104 &  0.3 &  170 695 &  0.6
+	\\
+	identity &
+	mix\_random &
+		334g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  104/104 &  0.4 &  186 166 &  0.6
+	\\
+	subproblem\_greedy &
+	mix\_random &
+		334g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  103/103 &  0.2 &  151 759 &  0.6
+	\\
+\end{longtable}

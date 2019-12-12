@@ -1,0 +1,78 @@
+%!TEX root = ../main.tex
+\rowcolors{1}{gray!10}{white}
+\begin{longtable}{@{\extracolsep{0pt}}ccc{c}cccccc}
+	\hiderowcolors
+	\caption{Memetic parameter comparison for CYC9}\\
+	\toprule
+	\multicolumn{3}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-3}\cmidrule{5-10}
+	Crossover & Weights Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endfirsthead
+	\caption{Memetic parameter comparison for CYC9 (continued)}\\
+	\toprule
+	\multicolumn{3}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-3}\cmidrule{5-10}
+	Crossover & Weights Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\showrowcolors
+	identity &
+	keep &
+		334g/150000steps
+	 &&
+			\textbf{772}
+	&  774.8 &  38/105 &  64.0 &  19 282 142 &  47.11
+	\\
+	identity &
+	mix\_random &
+		334g/150000steps
+	 &&
+			\textbf{772}
+	&  775.2 &  30/103 &  69.5 &  20 947 206 &  52.7
+	\\
+	identity &
+	average &
+		334g/150000steps
+	 &&
+			\textbf{772}
+	&  775.3 &  29/105 &  77.4 &  23 323 023 &  57.88
+	\\
+	subproblem\_greedy &
+	average &
+		334g/150000steps
+	 &&
+			\textbf{772}
+	&  776.0 &  25/109 &  38.3 &  11 570 040 &  32.11
+	\\
+	subproblem\_greedy &
+	keep &
+		334g/150000steps
+	 &&
+			\textbf{772}
+	&  776.2 &  21/104 &  58.2 &  17 556 591 &  42.98
+	\\
+	identity &
+	reset &
+		334g/150000steps
+	 &&
+			\textbf{772}
+	&  776.5 &  21/105 &  193.6 &  58 200 697 &  193.65
+	\\
+	subproblem\_greedy &
+	mix\_random &
+		334g/150000steps
+	 &&
+			\textbf{772}
+	&  776.8 &  9/103 &  75.8 &  22 827 156 &  122.85
+	\\
+	subproblem\_greedy &
+	reset &
+		334g/150000steps
+	 &&
+			\textbf{772}
+	&  778.3 &  6/103 &  120.3 &  36 224 537 &  109.33
+	\\
+\end{longtable}

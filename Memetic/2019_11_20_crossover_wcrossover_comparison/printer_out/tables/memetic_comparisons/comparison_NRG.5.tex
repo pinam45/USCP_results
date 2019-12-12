@@ -1,0 +1,78 @@
+%!TEX root = ../main.tex
+\rowcolors{1}{gray!10}{white}
+\begin{longtable}{@{\extracolsep{0pt}}ccc{c}cccccc}
+	\hiderowcolors
+	\caption{Memetic parameter comparison for NRG.5}\\
+	\toprule
+	\multicolumn{3}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-3}\cmidrule{5-10}
+	Crossover & Weights Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endfirsthead
+	\caption{Memetic parameter comparison for NRG.5 (continued)}\\
+	\toprule
+	\multicolumn{3}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-3}\cmidrule{5-10}
+	Crossover & Weights Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\showrowcolors
+	subproblem\_greedy &
+	average &
+		101g/150000steps
+	 &&
+		\textbf{60*}
+	&  61.4 &  3/109 &  53.0 &  15 937 144 &  484.08
+	\\
+	subproblem\_greedy &
+	keep &
+		101g/150000steps
+	 &&
+			\textbf{61}
+	&  61.3 &  72/104 &  36.7 &  11 064 799 &  165.38
+	\\
+	subproblem\_greedy &
+	mix\_random &
+		101g/150000steps
+	 &&
+			\textbf{61}
+	&  61.3 &  69/103 &  37.6 &  11 307 470 &  139.45
+	\\
+	identity &
+	keep &
+		101g/150000steps
+	 &&
+			\textbf{61}
+	&  61.4 &  66/105 &  36.6 &  11 033 537 &  132.15
+	\\
+	identity &
+	average &
+		101g/150000steps
+	 &&
+			\textbf{61}
+	&  61.5 &  54/105 &  46.1 &  13 879 370 &  210.13
+	\\
+	identity &
+	mix\_random &
+		101g/150000steps
+	 &&
+			\textbf{61}
+	&  61.5 &  51/105 &  43.8 &  13 190 854 &  175.34
+	\\
+	identity &
+	reset &
+		101g/150000steps
+	 &&
+			\textbf{61}
+	&  62.0 &  5/104 &  53.2 &  16 086 240 &  200.21
+	\\
+	subproblem\_greedy &
+	reset &
+		101g/150000steps
+	 &&
+			\textbf{61}
+	&  62.0 &  4/104 &  60.0 &  18 102 836 &  162.14
+	\\
+\end{longtable}
