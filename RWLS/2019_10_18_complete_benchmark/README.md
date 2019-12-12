@@ -55,7 +55,7 @@ RAIL507,RAIL516,RAIL582,RAIL2536,RAIL2586,RAIL4284,RAIL4872
 ## Printer output
 
 The document contains:
-- instances informations
+- instances information
 - result for the Greedy and the RWLS algorithms
 - statistics for RWLS repetitions
 

@@ -27,12 +27,12 @@ The script used to submit the 22 * 100 = 2200 jobs to slurm is [submit_special.s
 ## Printer output
 
 The document contains:
-- instances informations
+- instances information
 - result for the Greedy, RWLS and Memetic algorithms
 - statistics for RWLS repetitions
 - comparison of the results for the Memetic configurations
 
 To generate this document, the printer was run using:
 ```
-./solver --input=<repository_path>/RWLS/2019_10_18_complete_benchmark/solver_out,<repository_path>/Memetic/2019_11_14_subproblem_greedy/solver_out --rwls_stats --memetic_comparisons
+./printer --input=<repository_path>/RWLS/2019_10_18_complete_benchmark/solver_out,<repository_path>/Memetic/2019_11_14_subproblem_greedy/solver_out --rwls_stats --memetic_comparisons
 ```
