@@ -13,7 +13,7 @@ For more details, see the printer output.
 
 ## Solver output
 
-The solver was run on the most "improvable" instances, the NR\[E-H\].\[1-5\] and CYC\[10-11\] instances.
+The solver was run on the 22 most "improvable" instances, the NR\[E-H\].\[1-5\] and CYC\[10-11\] instances.
 
 Comma separated list of instances names:
 ```

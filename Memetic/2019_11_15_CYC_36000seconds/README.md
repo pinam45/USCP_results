@@ -11,7 +11,7 @@ For more details, see the printer output.
 
 ## Solver output
 
-The solver was run on the most "improvable" unicost instances, the CYC\[8-11\] instances.
+The solver was run on the 4 most "improvable" unicost instances, the CYC\[8-11\] instances.
 
 Comma separated list of instances names:
 ```
