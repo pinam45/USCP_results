@@ -1,0 +1,188 @@
+{
+    "date": "2019-12-06T11:32:07Z",
+    "git": {
+        "head_sha1": "fbd564bef73017f0ac7e3fc72cd61160df1f4256",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "E.4",
+                        "points_number": 50,
+                        "reduced": false,
+                        "subsets_number": 500
+                    },
+                    "selected_subsets": [
+                        0,
+                        2,
+                        4,
+                        6,
+                        21,
+                        141
+                    ]
+                },
+                "time": 0.000105984
+            },
+            "instance": {
+                "name": "E.4",
+                "points_number": 50,
+                "reduced": false,
+                "subsets_number": 500
+            },
+            "rwls": [
+                {
+                    "ended_at": {
+                        "steps": 30000000,
+                        "time": 260.885149184
+                    },
+                    "found_at": {
+                        "steps": 92,
+                        "time": 0.001544192
+                    },
+                    "points_weights_final": [
+                        6,
+                        2,
+                        9,
+                        8,
+                        5,
+                        6,
+                        6,
+                        4,
+                        6,
+                        5,
+                        5,
+                        4,
+                        5,
+                        6,
+                        4,
+                        5,
+                        5,
+                        2,
+                        5,
+                        4,
+                        2,
+                        5,
+                        7,
+                        6,
+                        3,
+                        5,
+                        5,
+                        4,
+                        6,
+                        4,
+                        6,
+                        6,
+                        7,
+                        6,
+                        5,
+                        6,
+                        4,
+                        5,
+                        5,
+                        8,
+                        6,
+                        7,
+                        5,
+                        7,
+                        4,
+                        6,
+                        7,
+                        7,
+                        4,
+                        3
+                    ],
+                    "points_weights_initial": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "solution_final": {
+                        "problem": {
+                            "name": "E.4",
+                            "points_number": 50,
+                            "reduced": false,
+                            "subsets_number": 500
+                        },
+                        "selected_subsets": [
+                            20,
+                            32,
+                            38,
+                            52,
+                            73
+                        ]
+                    },
+                    "solution_initial": {
+                        "problem": {
+                            "name": "E.4",
+                            "points_number": 50,
+                            "reduced": false,
+                            "subsets_number": 500
+                        },
+                        "selected_subsets": [
+                            0,
+                            2,
+                            4,
+                            6,
+                            21,
+                            141
+                        ]
+                    },
+                    "stopping_criterion": {
+                        "steps": 30000000,
+                        "time": 1.8446744073709552e+19
+                    }
+                }
+            ]
+        }
+    ]
+}

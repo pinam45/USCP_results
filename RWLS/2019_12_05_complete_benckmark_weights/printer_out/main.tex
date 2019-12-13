@@ -1,0 +1,233 @@
+%!TEX program = lualatex
+\documentclass[12pt,a4paper,twoside]{article}
+
+%----------------------------------------
+% Packages
+%----------------------------------------
+
+% Programming facilities
+\usepackage{etoolbox}
+\usepackage{ifxetex}
+\usepackage{ifluatex}
+% Encoding
+\usepackage[T1]{fontenc}
+\ifboolexpr{bool{xetex} or bool{luatex}}{%
+	\usepackage{fontspec}
+}{%
+	\usepackage[utf8]{inputenc}
+}
+% General purpose
+\usepackage[english]{babel}
+\usepackage[top=2cm, bottom=1.8cm, left=1.8cm, right=1.8cm, head=14pt, foot=36pt]{geometry}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage[table]{xcolor}
+\usepackage{float}
+\usepackage{datetime2}
+\usepackage{chngcntr}
+\usepackage{pdflscape}
+% Mathematics
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\usepackage{amsthm}
+\usepackage{dsfont}
+\usepackage{braket}
+\usepackage{stmaryrd}
+% Tables
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{ltablex}
+\usepackage{tabu}
+\usepackage{booktabs}
+\usepackage{multirow}
+% PGF-TikZ
+\usepackage{pgf}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\usepackage{tikz}
+\usepackage[mode=tex]{standalone}
+\usepackage{import}
+
+%----------------------------------------
+% Configuration
+%----------------------------------------
+
+\DTMsavetimestamp{generated}{2019-12-12T10:28:44Z}
+
+%----------------------------------------
+% Informations
+%----------------------------------------
+
+% Cover infos
+\title{USCP results}
+\author{\url{https://github.com/pinam45/USCP}}
+\date{\DTMusedate{generated} \DTMusetime{generated}}
+
+% Fancy style options
+\lhead{\small USCP results}
+\rhead{\small \DTMusedate{generated} \DTMusetime{generated}}
+\chead{}
+\lfoot{\url{https://github.com/pinam45/USCP}}
+\rfoot{\thepage}
+\cfoot{}
+\pagestyle{fancy}
+
+%----------------------------------------
+% Tables
+%----------------------------------------
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+\counterwithin{table}{section}
+
+%----------------------------------------
+% Plots
+%----------------------------------------
+
+\pgfplotsset{
+	compat=1.16,
+	table/col sep=comma
+}
+\pgfplotsset{
+	table/search path={./plots},
+}
+\usetikzlibrary{intersections}
+\usepgfplotslibrary{fillbetween}
+
+%----------------------------------------
+% Links
+%----------------------------------------
+
+% Links config, especialy for the table of contents
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=blue,
+  linktoc=all,
+  citecolor=black
+}
+
+%----------------------------------------
+% Document
+%----------------------------------------
+\begin{document}
+	\maketitle{}
+	\tableofcontents{}
+	\listoftables{}
+	\newpage\section{Instances}
+		\input{./tables/orlibrary_instances_base}
+		\input{./tables/orlibrary_instances_cyc_clr}
+		\input{./tables/orlibrary_instances_rail}
+		\input{./tables/sts_instances}
+	\begin{landscape}
+		\newpage\section{Results}
+			\input{./tables/results}
+	\end{landscape}
+	\newpage\section{Stats}
+		\input{./tables/rwls_stats}
+% Uncomment to include the RWLS weights plots figures (increase considerably the compile time)
+%	\begin{landscape}
+%		\newpage\section{RWLS weights}
+%			\input{./plots/figure_rwls_weights_4.1.tex}
+%			\newpage\input{./plots/figure_rwls_weights_4.2.tex}
+%			\newpage\input{./plots/figure_rwls_weights_4.3.tex}
+%			\newpage\input{./plots/figure_rwls_weights_4.4.tex}
+%			\newpage\input{./plots/figure_rwls_weights_4.5.tex}
+%			\newpage\input{./plots/figure_rwls_weights_4.6.tex}
+%			\newpage\input{./plots/figure_rwls_weights_4.7.tex}
+%			\newpage\input{./plots/figure_rwls_weights_4.8.tex}
+%			\newpage\input{./plots/figure_rwls_weights_4.9.tex}
+%			\newpage\input{./plots/figure_rwls_weights_4.10.tex}
+%			\newpage\input{./plots/figure_rwls_weights_5.1.tex}
+%			\newpage\input{./plots/figure_rwls_weights_5.2.tex}
+%			\newpage\input{./plots/figure_rwls_weights_5.3.tex}
+%			\newpage\input{./plots/figure_rwls_weights_5.4.tex}
+%			\newpage\input{./plots/figure_rwls_weights_5.5.tex}
+%			\newpage\input{./plots/figure_rwls_weights_5.6.tex}
+%			\newpage\input{./plots/figure_rwls_weights_5.7.tex}
+%			\newpage\input{./plots/figure_rwls_weights_5.8.tex}
+%			\newpage\input{./plots/figure_rwls_weights_5.9.tex}
+%			\newpage\input{./plots/figure_rwls_weights_5.10.tex}
+%			\newpage\input{./plots/figure_rwls_weights_6.1.tex}
+%			\newpage\input{./plots/figure_rwls_weights_6.2.tex}
+%			\newpage\input{./plots/figure_rwls_weights_6.3.tex}
+%			\newpage\input{./plots/figure_rwls_weights_6.4.tex}
+%			\newpage\input{./plots/figure_rwls_weights_6.5.tex}
+%			\newpage\input{./plots/figure_rwls_weights_A.1.tex}
+%			\newpage\input{./plots/figure_rwls_weights_A.2.tex}
+%			\newpage\input{./plots/figure_rwls_weights_A.3.tex}
+%			\newpage\input{./plots/figure_rwls_weights_A.4.tex}
+%			\newpage\input{./plots/figure_rwls_weights_A.5.tex}
+%			\newpage\input{./plots/figure_rwls_weights_B.1.tex}
+%			\newpage\input{./plots/figure_rwls_weights_B.2.tex}
+%			\newpage\input{./plots/figure_rwls_weights_B.3.tex}
+%			\newpage\input{./plots/figure_rwls_weights_B.4.tex}
+%			\newpage\input{./plots/figure_rwls_weights_B.5.tex}
+%			\newpage\input{./plots/figure_rwls_weights_C.1.tex}
+%			\newpage\input{./plots/figure_rwls_weights_C.2.tex}
+%			\newpage\input{./plots/figure_rwls_weights_C.3.tex}
+%			\newpage\input{./plots/figure_rwls_weights_C.4.tex}
+%			\newpage\input{./plots/figure_rwls_weights_C.5.tex}
+%			\newpage\input{./plots/figure_rwls_weights_D.1.tex}
+%			\newpage\input{./plots/figure_rwls_weights_D.2.tex}
+%			\newpage\input{./plots/figure_rwls_weights_D.3.tex}
+%			\newpage\input{./plots/figure_rwls_weights_D.4.tex}
+%			\newpage\input{./plots/figure_rwls_weights_D.5.tex}
+%			\newpage\input{./plots/figure_rwls_weights_E.1.tex}
+%			\newpage\input{./plots/figure_rwls_weights_E.2.tex}
+%			\newpage\input{./plots/figure_rwls_weights_E.3.tex}
+%			\newpage\input{./plots/figure_rwls_weights_E.4.tex}
+%			\newpage\input{./plots/figure_rwls_weights_E.5.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRE.1.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRE.2.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRE.3.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRE.4.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRE.5.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRF.1.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRF.2.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRF.3.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRF.4.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRF.5.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRG.1.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRG.2.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRG.3.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRG.4.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRG.5.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRH.1.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRH.2.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRH.3.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRH.4.tex}
+%			\newpage\input{./plots/figure_rwls_weights_NRH.5.tex}
+%			\newpage\input{./plots/figure_rwls_weights_CLR10.tex}
+%			\newpage\input{./plots/figure_rwls_weights_CLR11.tex}
+%			\newpage\input{./plots/figure_rwls_weights_CLR12.tex}
+%			\newpage\input{./plots/figure_rwls_weights_CLR13.tex}
+%			\newpage\input{./plots/figure_rwls_weights_CYC6.tex}
+%			\newpage\input{./plots/figure_rwls_weights_CYC7.tex}
+%			\newpage\input{./plots/figure_rwls_weights_CYC8.tex}
+%			\newpage\input{./plots/figure_rwls_weights_CYC9.tex}
+%			\newpage\input{./plots/figure_rwls_weights_CYC10.tex}
+%			\newpage\input{./plots/figure_rwls_weights_CYC11.tex}
+%			\newpage\input{./plots/figure_rwls_weights_RAIL507.tex}
+%			\newpage\input{./plots/figure_rwls_weights_RAIL516.tex}
+%			\newpage\input{./plots/figure_rwls_weights_RAIL582.tex}
+%			\newpage\input{./plots/figure_rwls_weights_RAIL2536.tex}
+%			\newpage\input{./plots/figure_rwls_weights_RAIL2586.tex}
+%			\newpage\input{./plots/figure_rwls_weights_RAIL4284.tex}
+%			\newpage\input{./plots/figure_rwls_weights_RAIL4872.tex}
+%			\newpage\input{./plots/figure_rwls_weights_STS9.tex}
+%			\newpage\input{./plots/figure_rwls_weights_STS15.tex}
+%			\newpage\input{./plots/figure_rwls_weights_STS27.tex}
+%			\newpage\input{./plots/figure_rwls_weights_STS45.tex}
+%			\newpage\input{./plots/figure_rwls_weights_STS81.tex}
+%			\newpage\input{./plots/figure_rwls_weights_STS135.tex}
+%			\newpage\input{./plots/figure_rwls_weights_STS243.tex}
+%			\newpage\input{./plots/figure_rwls_weights_STS405.tex}
+%			\newpage\input{./plots/figure_rwls_weights_STS729.tex}
+%	\end{landscape}
+\end{document}
