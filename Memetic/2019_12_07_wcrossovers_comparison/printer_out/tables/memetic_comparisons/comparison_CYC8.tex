@@ -1,0 +1,78 @@
+%!TEX root = ../main.tex
+\rowcolors{1}{gray!10}{white}
+\begin{longtable}{@{\extracolsep{0pt}}ccc{c}cccccc}
+	\hiderowcolors
+	\caption{Memetic parameter comparison for CYC8}\\
+	\toprule
+	\multicolumn{3}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-3}\cmidrule{5-10}
+	Crossover & Weights Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endfirsthead
+	\caption{Memetic parameter comparison for CYC8 (continued)}\\
+	\toprule
+	\multicolumn{3}{l}{Config} && \multicolumn{5}{l}{Results}\\
+	\cmidrule{1-3}\cmidrule{5-10}
+	Crossover & Weights Crossover & Gen./Limit && Best & Av. & \#Best & Gen. & Steps & Time(s)\\
+	\midrule
+	\endhead
+	\bottomrule
+	\endfoot
+	\showrowcolors
+	subproblem\_greedy &
+	minmax &
+		333g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  220/220 &  0.2 &  139 718 &  0.72
+	\\
+	subproblem\_greedy &
+	average &
+		333g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  304/304 &  0.2 &  157 609 &  0.76
+	\\
+	subproblem\_greedy &
+	max &
+		333g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  300/300 &  0.3 &  173 169 &  0.73
+	\\
+	subproblem\_greedy &
+	add &
+		333g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  308/308 &  0.3 &  179 664 &  0.85
+	\\
+	subproblem\_greedy &
+	difference &
+		333g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  308/308 &  0.3 &  180 772 &  0.79
+	\\
+	subproblem\_greedy &
+	mix\_random &
+		333g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  308/308 &  0.4 &  187 127 &  0.95
+	\\
+	subproblem\_greedy &
+	shuffle &
+		333g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  88/88 &  0.3 &  187 202 &  0.76
+	\\
+	subproblem\_greedy &
+	min &
+		333g/150000steps
+	 &&
+			\textbf{342}
+	&  342.0 &  308/308 &  0.4 &  188 823 &  0.86
+	\\
+\end{longtable}
