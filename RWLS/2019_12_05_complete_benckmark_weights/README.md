@@ -18,7 +18,7 @@ The script used depend on the stopping criterion (steps/time), see the scripts f
 
 To generate the documents, the printer was run using:
 ```
-./solver --input=<repository_path>/RWLS/2019_12_05_complete_benckmark_weights/solver_out --rwls_stats --rwls_weights
+./printer --input=<repository_path>/RWLS/2019_12_05_complete_benckmark_weights/solver_out --rwls_stats --rwls_weights
 ```
 
 The main document contains:

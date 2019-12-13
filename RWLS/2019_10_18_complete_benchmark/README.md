@@ -61,5 +61,5 @@ The document contains:
 
 To generate this document, the printer was run using:
 ```
-./solver --input=<repository_path>/RWLS/2019_10_18_complete_benchmark/solver_out --rwls_stats
+./printer --input=<repository_path>/RWLS/2019_10_18_complete_benchmark/solver_out --rwls_stats
 ```
