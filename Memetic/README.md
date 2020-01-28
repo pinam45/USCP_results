@@ -23,3 +23,7 @@ $ latexmk -silent
 
  - [2019_11_12_crossovers_generations_comparison](./2019_11_12_crossovers_generations_comparison)
  - [2019_11_14_subproblem_greedy](./2019_11_14_subproblem_greedy)
+ - [2019_11_15_CYC_36000seconds](./2019_11_15_CYC_36000seconds)
+ - [2019_11_20_crossover_wcrossover_comparison](./2019_11_20_crossover_wcrossover_comparison)
+ - [2019_12_07_wcrossovers_comparison](./2019_12_07_wcrossovers_comparison)
+ - [2020_01_10_LION14](./2020_01_10_LION14)
