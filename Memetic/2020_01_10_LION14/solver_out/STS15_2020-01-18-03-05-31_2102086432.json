@@ -1,0 +1,132 @@
+{
+    "date": "2020-01-18T03:05:31Z",
+    "git": {
+        "head_sha1": "4181fcbf17278eda3d4c173ffb752a54fa1ee272",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "STS15",
+                        "points_number": 35,
+                        "reduced": false,
+                        "subsets_number": 15
+                    },
+                    "selected_subsets": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8
+                    ]
+                },
+                "time": 1.408e-05
+            },
+            "instance": {
+                "name": "STS15",
+                "points_number": 35,
+                "reduced": false,
+                "subsets_number": 15
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "subproblem_rwls",
+                    "ended_at": {
+                        "generation": 20,
+                        "rwls_cumulative_position": {
+                            "steps": 104857500,
+                            "time": 63.65033830400001
+                        },
+                        "time": 35.398046976
+                    },
+                    "found_at": {
+                        "generation": 0,
+                        "rwls_cumulative_position": {
+                            "steps": 0,
+                            "time": 1.536e-06
+                        },
+                        "time": 0.019440896
+                    },
+                    "points_weights_final": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "solution_final": {
+                        "problem": {
+                            "name": "STS15",
+                            "points_number": 35,
+                            "reduced": false,
+                            "subsets_number": 15
+                        },
+                        "selected_subsets": [
+                            3,
+                            4,
+                            5,
+                            6,
+                            8,
+                            9,
+                            12,
+                            13,
+                            14
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 18446744073709551615,
+                            "time": 1.7976931348623157e+308
+                        },
+                        "stopping_criterion": {
+                            "generation": 18446744073709551615,
+                            "rwls_cumulative_position": {
+                                "steps": 100000000,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    },
+                    "wcrossover_operator": "max"
+                }
+            ]
+        }
+    ]
+}
