@@ -1,0 +1,101 @@
+{
+    "date": "2020-02-04T09:24:44Z",
+    "git": {
+        "head_sha1": "4c44acd41b3ef50cd836908a44eb2a98febbe3c1",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "STS9",
+                        "points_number": 12,
+                        "reduced": false,
+                        "subsets_number": 9
+                    },
+                    "selected_subsets": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        5
+                    ]
+                },
+                "time": 6.912e-06
+            },
+            "instance": {
+                "name": "STS9",
+                "points_number": 12,
+                "reduced": false,
+                "subsets_number": 9
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "subproblem_rwls",
+                    "ended_at": {
+                        "generation": 22,
+                        "rwls_cumulative_position": {
+                            "steps": 176160726,
+                            "time": 46.403691519999995
+                        },
+                        "time": 24.550925312
+                    },
+                    "found_at": {
+                        "generation": 0,
+                        "rwls_cumulative_position": {
+                            "steps": 0,
+                            "time": 0.0
+                        },
+                        "time": 0.010242048
+                    },
+                    "points_weights_final": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    "solution_final": {
+                        "problem": {
+                            "name": "STS9",
+                            "points_number": 12,
+                            "reduced": false,
+                            "subsets_number": 9
+                        },
+                        "selected_subsets": [
+                            0,
+                            3,
+                            6,
+                            7,
+                            8
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 18446744073709551615,
+                            "time": 1.7976931348623157e+308
+                        },
+                        "stopping_criterion": {
+                            "generation": 18446744073709551615,
+                            "rwls_cumulative_position": {
+                                "steps": 100000000,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    },
+                    "wcrossover_operator": "max"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "date": "2020-02-04T16:03:35Z",
+    "git": {
+        "head_sha1": "4c44acd41b3ef50cd836908a44eb2a98febbe3c1",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "E.1",
+                        "points_number": 50,
+                        "reduced": false,
+                        "subsets_number": 500
+                    },
+                    "selected_subsets": [
+                        0,
+                        4,
+                        20,
+                        64,
+                        112
+                    ]
+                },
+                "time": 5.9136e-05
+            },
+            "instance": {
+                "name": "E.1",
+                "points_number": 50,
+                "reduced": false,
+                "subsets_number": 500
+            },
+            "memetic": [
+                {
+                    "crossover_operator": "subproblem_rwls",
+                    "ended_at": {
+                        "generation": 15010,
+                        "rwls_cumulative_position": {
+                            "steps": 30000602,
+                            "time": 108.23616716799891
+                        },
+                        "time": 1434.11236992
+                    },
+                    "found_at": {
+                        "generation": 0,
+                        "rwls_cumulative_position": {
+                            "steps": 141,
+                            "time": 0.000395776
+                        },
+                        "time": 0.017652224
+                    },
+                    "points_weights_final": [
+                        4,
+                        10,
+                        7,
+                        7,
+                        7,
+                        8,
+                        7,
+                        7,
+                        12,
+                        10,
+                        7,
+                        13,
+                        12,
+                        9,
+                        6,
+                        7,
+                        11,
+                        8,
+                        10,
+                        10,
+                        11,
+                        8,
+                        10,
+                        9,
+                        9,
+                        8,
+                        8,
+                        8,
+                        9,
+                        6,
+                        7,
+                        10,
+                        9,
+                        9,
+                        6,
+                        11,
+                        9,
+                        9,
+                        11,
+                        12,
+                        9,
+                        13,
+                        10,
+                        10,
+                        12,
+                        11,
+                        11,
+                        13,
+                        9,
+                        9
+                    ],
+                    "solution_final": {
+                        "problem": {
+                            "name": "E.1",
+                            "points_number": 50,
+                            "reduced": false,
+                            "subsets_number": 500
+                        },
+                        "selected_subsets": [
+                            4,
+                            6,
+                            56,
+                            112,
+                            122
+                        ]
+                    },
+                    "solve_config": {
+                        "rwls_stopping_criterion": {
+                            "steps": 18446744073709551615,
+                            "time": 1.7976931348623157e+308
+                        },
+                        "stopping_criterion": {
+                            "generation": 18446744073709551615,
+                            "rwls_cumulative_position": {
+                                "steps": 30000000,
+                                "time": 1.8446744073709552e+19
+                            },
+                            "time": 1.8446744073709552e+19
+                        }
+                    },
+                    "wcrossover_operator": "max"
+                }
+            ]
+        }
+    ]
+}
