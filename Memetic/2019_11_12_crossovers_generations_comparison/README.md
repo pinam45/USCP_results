@@ -16,7 +16,7 @@ For more details, see the printer output.
 
 The solver was run on each of the 96 instances with each of the 20 parameters combination. A second repetition was run but stopped before the end, each instance thus only have 1 or 2 repetitions by combinations finished.
 
-The script used to submit the 96 * 20 = 1920 jobs to slurm is [submit_all.sh](./scripts/submit_all.sh). This script submit jobs with run scripts depending on the on the instance type, see the [RWLS complete benchmark](../../RWLS/2019_10_18_complete_benchmark) for more information and the scripts for details.
+The script used to submit the 96 * 20 = 1920 repetitions to slurm is [submit_all.sh](./scripts/submit_all.sh). This script submit jobs with run scripts depending on the on the instance type, see the [RWLS complete benchmark](../../RWLS/2019_10_18_complete_benchmark) for more information and the scripts for details.
 
 ## Printer output
 

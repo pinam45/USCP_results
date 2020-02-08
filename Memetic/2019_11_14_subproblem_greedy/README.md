@@ -20,9 +20,9 @@ Comma separated list of instances names:
 NRE.1,NRE.2,NRE.3,NRE.4,NRE.5,NRF.1,NRF.2,NRF.3,NRF.4,NRF.5,NRG.1,NRG.2,NRG.3,NRG.4,NRG.5,NRH.1,NRH.2,NRH.3,NRH.4,NRH.5,CYC10,CYC11
 ```
 
-100 repetitions were launched but they were stopped before the end, each instance thus only have ~30 repetitions finished.
+100 repetitions were launched but they were stopped before the end, each instance thus only have \~30 repetitions finished.
 
-The script used to submit the 22 * 100 = 2200 jobs to slurm is [submit_special.sh](./scripts/submit_special.sh). This script submit jobs with run scripts depending on the on the instance type, see the [RWLS complete benchmark](../../RWLS/2019_10_18_complete_benchmark) for more information and the scripts for details.
+The script used to submit the 22 * 100 = 2200 repetitions to slurm is [submit_special.sh](./scripts/submit_special.sh). This script submit jobs with run scripts depending on the on the instance type, see the [RWLS complete benchmark](../../RWLS/2019_10_18_complete_benchmark) for more information and the scripts for details.
 
 ## Printer output
 

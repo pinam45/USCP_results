@@ -18,7 +18,7 @@ CLR10,CLR11,CLR12,CLR13,CYC6,CYC7,CYC8,CYC9,CYC10,CYC11,STS9,STS15,STS27,STS45,S
  RAIL507,RAIL516,RAIL582,RAIL2536,RAIL2586,RAIL4284,RAIL4872
  ```
 
-See the first [RWLS complete benchmark](../2019_10_18_complete_benchmark) for more information and the scripts for details.
+See the first [RWLS complete benchmark](../../RWLS/2019_10_18_complete_benchmark) for more information and the scripts for details.
 
 The script used to submit the 98 * 100 = 9800 repetitions to slurm is [submit_all.sh](./scripts/submit_all.sh). This script submit for each instance 25 jobs with the [run_steps_4.sh](./scripts/run_steps_4.sh)/[run_time_4.sh](./scripts/run_time_4.sh) scripts that run 4 repetitions in parallel. The script used depend on the stopping criterion (steps/time), see the scripts for details.
 

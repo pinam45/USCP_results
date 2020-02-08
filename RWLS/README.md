@@ -23,3 +23,4 @@ $ latexmk -silent
 
  - [2019_10_18_complete_benchmark](./2019_10_18_complete_benchmark)
  - [2019_12_05_complete_benckmark_weights](./2019_12_05_complete_benckmark_weights)
+ - [2020_02_03_final](./2020_02_03_final)

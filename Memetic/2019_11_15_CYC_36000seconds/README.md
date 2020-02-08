@@ -18,7 +18,7 @@ Comma separated list of instances names:
 CYC8,CYC9,CYC10,CYC11
 ```
 
-100 repetitions were launched for each crossover. The script used to submit the 4 * 2 * 100 = 800 jobs to slurm is [submit_special.sh](./scripts/submit_special.sh). This script submit jobs with the [run_unicost.sh](./scripts/run_unicost.sh) script, for details see the script.
+100 repetitions were launched for each crossover. The script used to submit the 4 * 2 * 100 = 800 repetitions to slurm is [submit_special.sh](./scripts/submit_special.sh). This script submit jobs with the [run_unicost.sh](./scripts/run_unicost.sh) script, for details see the script.
 
 ## Printer output
 

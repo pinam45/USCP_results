@@ -21,7 +21,7 @@ For more details, see the printer output.
 
 The solver was run on the 19 most "improvable" instances, the NR\[E,G,H\].\[1-5\] and CYC\[8-11\] instances with each of the 8 parameters combination. Due to problems with slurm, repetitions were run until each configuration had at least 100 repetitions.
 
-The script used to submit the 8 * 19 = 152 jobs to slurm is [submit_special.sh](./scripts/submit_special.sh). This script submit jobs with run scripts depending on the on the instance type, see the [RWLS complete benchmark](../../RWLS/2019_10_18_complete_benchmark) for more information and the scripts for details.
+The script used to submit the 8 * 19 = 152 repetitions to slurm is [submit_special.sh](./scripts/submit_special.sh). This script submit jobs with run scripts depending on the on the instance type, see the [RWLS complete benchmark](../../RWLS/2019_10_18_complete_benchmark) for more information and the scripts for details.
 
 ## Printer output
 

@@ -5,7 +5,7 @@ In this benchmark, we wanted to check that we obtain experimental results simila
 Results are:
  - For most of the instances, the best solution fitness correspond the article results
  - For some instances, we improved the BKS thanks to the higher repetitions number, the apparition frequency being inferior to 0.1 (NRG.3, NRG.4, NRG.5, NRH.1, NRH.2, NRH.3, NRH.4, NRH.5, CYC10)
- - For some instances, we improved the BKS but with a frequency of ~1/2 that should have appeared in the article results (NRG.1,NRG.2)
+ - For some instances, we improved the BKS but with a frequency of \~1/2 that should have appeared in the article results (NRG.1,NRG.2)
 
 For more details, see the printer output.
 
@@ -13,7 +13,7 @@ For more details, see the printer output.
 
 The solver was run 100 times on each of the 96 instances with parameters used in [Gao2015](../../References.md) to be able to compare them with the authors results. For most instances the article give results with a time limit and with a steps limit, the steps limit was used here so the machine running the algorithm doesn't influence the results.
 
-The script used to submit the 96 * 100 = 9600 jobs to slurm is [submit_all.sh](./scripts/submit_all.sh). This script submit jobs with run scripts depending on the on the instance type, see below for details.
+The script used to submit the 96 * 100 = 9600 repetitions to slurm is [submit_all.sh](./scripts/submit_all.sh). This script submit jobs with run scripts depending on the on the instance type, see below for details.
 
 ### Base instances (OR-Library base instances)
 
