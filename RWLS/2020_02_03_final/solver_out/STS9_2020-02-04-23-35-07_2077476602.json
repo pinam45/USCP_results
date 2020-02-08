@@ -1,0 +1,110 @@
+{
+    "date": "2020-02-04T23:35:07Z",
+    "git": {
+        "head_sha1": "4c44acd41b3ef50cd836908a44eb2a98febbe3c1",
+        "is_dirty": true,
+        "retrieved_state": true
+    },
+    "instances": [
+        {
+            "greedy": {
+                "solution_final": {
+                    "problem": {
+                        "name": "STS9",
+                        "points_number": 12,
+                        "reduced": false,
+                        "subsets_number": 9
+                    },
+                    "selected_subsets": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        5
+                    ]
+                },
+                "time": 5.632e-06
+            },
+            "instance": {
+                "name": "STS9",
+                "points_number": 12,
+                "reduced": false,
+                "subsets_number": 9
+            },
+            "rwls": [
+                {
+                    "ended_at": {
+                        "steps": 100000000,
+                        "time": 21.449046272
+                    },
+                    "found_at": {
+                        "steps": 0,
+                        "time": 7.68e-07
+                    },
+                    "points_weights_final": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "points_weights_initial": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1
+                    ],
+                    "solution_final": {
+                        "problem": {
+                            "name": "STS9",
+                            "points_number": 12,
+                            "reduced": false,
+                            "subsets_number": 9
+                        },
+                        "selected_subsets": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            5
+                        ]
+                    },
+                    "solution_initial": {
+                        "problem": {
+                            "name": "STS9",
+                            "points_number": 12,
+                            "reduced": false,
+                            "subsets_number": 9
+                        },
+                        "selected_subsets": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            5
+                        ]
+                    },
+                    "stopping_criterion": {
+                        "steps": 100000000,
+                        "time": 1.8446744073709552e+19
+                    }
+                }
+            ]
+        }
+    ]
+}
