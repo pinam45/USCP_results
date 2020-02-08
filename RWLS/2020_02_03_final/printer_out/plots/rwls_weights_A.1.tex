@@ -1,0 +1,91 @@
+%!TEX program = lualatex
+\documentclass{standalone}
+
+%----------------------------------------
+% Packages
+%----------------------------------------
+
+% Programming facilities
+\usepackage{etoolbox}
+\usepackage{ifxetex}
+\usepackage{ifluatex}
+% Encoding
+\usepackage[T1]{fontenc}
+\ifboolexpr{bool{xetex} or bool{luatex}}{%
+	\usepackage{fontspec}
+}{%
+	\usepackage[utf8]{inputenc}
+}
+% PGF-TikZ
+\usepackage{pgf}
+\usepackage{pgfplots}
+
+%----------------------------------------
+% Configuration
+%----------------------------------------
+
+\pgfplotsset{
+	compat=1.16,
+	table/col sep=comma
+}
+\pgfplotsset{
+	table/search path={./},
+}
+\usetikzlibrary{intersections}
+\usepgfplotslibrary{fillbetween}
+
+%----------------------------------------
+% Document
+%----------------------------------------
+\begin{document}
+	\begin{tikzpicture}
+		\begin{axis}[
+			width=800pt,
+			height=500pt,
+			xtick=\empty,
+			enlargelimits=0,
+			legend columns=4,
+			legend cell align=left,
+			legend style={/tikz/every even column/.append style={column sep=10pt}},
+			y tick label style={
+				/pgf/number format/.cd,
+					scaled y ticks = false,
+					fixed,
+				/tikz/.cd
+			},
+		]
+			% data
+			\addplot table[
+				y=mean,
+				%y error=stddev,
+				only marks,
+				mark=*
+			]{rwls_weights_A.1.csv};
+
+			% average
+			\addplot[domain=0:300,dashed,thick]{97481.7578125};
+
+			% min/max
+			\addplot[name path=A,draw=none] table[y=min]{rwls_weights_A.1.csv};
+			\addplot[name path=B,draw=none] table[y=max]{rwls_weights_A.1.csv};
+			\addplot[red!70,fill opacity=0.5] fill between[of=A and B];
+
+			% stddev
+			\addplot[name path=A,draw=none] table[y expr=\thisrow{mean}-\thisrow{stddev}]{rwls_weights_A.1.csv};
+			\addplot[name path=B,draw=none] table[y expr=\thisrow{mean}+\thisrow{stddev}]{rwls_weights_A.1.csv};
+			\addplot[green!70,fill opacity=0.5] fill between[of=A and B];
+
+			% legend
+			\legend{
+				Weights,
+				Average,
+				,
+				,
+				Min/Max,
+				,
+				,
+				Std. dev.
+			}
+		\end{axis}
+	\end{tikzpicture}
+\end{document}
